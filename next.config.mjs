@@ -139,7 +139,7 @@ const nextConfig = {
       },
       {
         source: "/stretch-blow-moulding-machine-manufacturers",
-        destination: "/products/stretch-blow-moulding-machine-manufacturer",
+        destination: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer",
         permanent: true,
       },
        {

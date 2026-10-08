@@ -301,7 +301,7 @@ export const blogs = [
                     {
                         text: "stretch blow molding machine manufacturer",
                         bold: true,
-                        link: "/products/stretch-blow-moulding-machine-manufacturer"
+                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
                     },
                     {
                         text: " transforms a tiny plastic preform into a finished bottle if you intend to enter the PET bottle manufacturing industry or if you currently manage a production facility and wish to gain a better understanding of your equipment."
@@ -321,7 +321,7 @@ export const blogs = [
                     {
                         text: "stretch blow molding machine manufacturer in Delhi",
                         bold: true,
-                        link: "/products/stretch-blow-moulding-machine-manufacturer"
+                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
                     },
                     {
                         text: ". This article will provide you with a clear image of the complete process, regardless of whether you are a first-time buyer, a plant owner investigating automation, or simply interested in the technology underlying the bottles you use on a daily basis."
@@ -535,7 +535,7 @@ export const blogs = [
                     {
                         text: "stretch blow molding machine manufacturer",
                         bold: true,
-                        link: "/products/stretch-blow-moulding-machine-manufacturer"
+                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
                     },
                     {
                         text: ", knowing how one operates will help you make a far better choice. Every stage affects the final bottle's quality, from preform loading and infrared heating to stretching, blowing, and cooling."
