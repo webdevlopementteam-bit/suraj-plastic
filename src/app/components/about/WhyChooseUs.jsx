@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
         <div className="relative h-[500px] lg:h-auto">
 
           <Image
-            src="/about/about-innovation.png"
+            src="/about/about-innovation.webp"
             alt="PET Blow Moulding Machine"
             fill
             className="object-cover"

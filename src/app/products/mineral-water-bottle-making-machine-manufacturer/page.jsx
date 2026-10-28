@@ -1,13 +1,33 @@
 import Hero from "../../components/product/Hero";
 import SeoRenderer from "../../components/product/SeoRenderer";
+import JsonLd from "../../components/JsonLd";
+import { faqSchemaFromBlocks, productBreadcrumbSchema } from "@/app/lib/seo";
+
+const PAGE_NAME = "Mineral Water Bottle Making Machine Manufacturer";
+const PAGE_PATH = "/products/mineral-water-bottle-making-machine-manufacturer";
+
 export const metadata = {
-  title: "Top Mineral Water Bottle Making Machine Manufacturer",
+  title: "Mineral Water Bottle Making Machine Manufacturer | Suraj Plastic",
 
   description:
-    "Buy high-performance Mineral Water Bottle Making Machines from Suraj Plastic Industries. Reliable, efficient & backed by expert support. Contact us today!",
+    "Mineral Water Bottle Making Machine Manufacturer in Delhi. PET machines for 200 ml to 2 L bottles and 20 L jars, up to 6,000 BPH. Get a quote.",
+
+  keywords:
+    "Mineral Water Bottle Making Machine Manufacturer, Mineral Water Bottle Making Machine, Mineral Water Bottle Making Machine Manufacturer in Delhi, Water Bottle Making Machine, Mineral Water Bottle Making Machine Price",
 
   alternates: {
-    canonical: "/products/mineral-water-bottle-making-machine-manufacturer",
+    canonical: PAGE_PATH,
+  },
+
+  openGraph: {
+    type: "website",
+    url: PAGE_PATH,
+    siteName: "Suraj Plastic Industries",
+    locale: "en_IN",
+    title: "Mineral Water Bottle Making Machine Manufacturer | Suraj Plastic",
+    description:
+      "PET stretch blow moulding machines for mineral water bottles from 200 ml to 2 L and 20 L jars.",
+    images: ["/product/product5.webp"],
   },
 };
 
@@ -19,7 +39,6 @@ const content = [
       {
         text: "Mineral Water Bottle Making Machine Manufacturer",
         bold: true,
-        link: "/contact-us",
       },
       {
         text: " is a company that designs and builds the machinery used to convert PET preforms into finished mineral water bottles through the stretch blow moulding process. But not all manufacturers build machines with the same level of precision, durability, or after-sales reliability — and for a mineral water business, machine downtime doesn't just cost production time, it directly disrupts your entire bottling and distribution schedule.",
@@ -49,13 +68,9 @@ const content = [
   {
     type: "paragraph",
     content: [
-      { text: "A" },
+      { text: "A mineral water bottle making machine, " },
       {
-        text: " Best Mineral Water Bottle Making Machine Manufacturer in Delhi",
-        bold: true,
-      },
-      {
-        text: " also known as a PET stretch blow moulding machine, is industrial equipment that transforms small, thick-walled PET preforms into lightweight, hollow bottles specifically shaped and sized for packaged drinking water. The process involves heating the preform, stretching it mechanically, and then blowing it into a bottle-shaped mould using high-pressure air.",
+        text: "also known as a PET stretch blow moulding machine, is industrial equipment that transforms small, thick-walled PET preforms into lightweight, hollow bottles specifically shaped and sized for packaged drinking water. The process involves heating the preform, stretching it mechanically, and then blowing it into a bottle-shaped mould using high-pressure air.",
       },
     ],
   },
@@ -147,7 +162,25 @@ const content = [
 
   {
     type: "paragraph",
-    text: "Preforms are manually loaded by an operator while heating and blowing are automated. This option suits small-scale mineral water businesses or those just entering the packaged water market with limited capital investment.",
+    content: [
+      { text: "Preforms are manually loaded by an operator while heating and blowing are automated. Our " },
+      { text: "semi automatic stretch blow moulding machine", bold: true, link: "/products/semi-automatic-pet-stretch-blow-moulding-machine" },
+      { text: " suits small-scale mineral water businesses or those just entering the packaged water market with limited capital investment. The HP-20-CS model also makes 5 to 25 litre water jars, including the popular 20 litre dispenser jar." },
+    ],
+  },
+
+  {
+    type: "h4",
+    text: "Automatic Hand Feed Mineral Water Bottle Making Machines",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "An " },
+      { text: "automatic hand feed blow moulding machine", bold: true, link: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine" },
+      { text: " automates the stretch, blow and ejection cycle while the operator feeds preforms. The 6-cavity SAB-500-6BHF produces 4,800–5,400 bottles per hour of 200 ml to 500 ml water bottles, making it a popular upgrade for growing water plants." },
+    ],
   },
 
   {
@@ -157,7 +190,13 @@ const content = [
 
   {
     type: "paragraph",
-    text: "The entire process — perform feeding, heating, blowing, and ejection — runs without manual intervention, making it ideal for mid-to-large mineral water plants that need high, consistent output across multiple shifts.",
+    content: [
+      { text: "The entire process — preform feeding, heating, blowing, and ejection — runs without manual intervention. Our " },
+      { text: "fully automatic stretch blow moulding machine", bold: true, link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer" },
+      { text: " (SPI AY Series) is rated up to 6,000 bottles per hour for 600 ml bottles, making it ideal for mid-to-large mineral water plants that need high, consistent output across multiple shifts. Compare every automated option on our " },
+      { text: "automatic PET bottle moulding machine manufacturer", bold: true, link: "/products/automatic-pet-bottle-moulding-machine-manufacturer" },
+      { text: " page." },
+    ],
   },
 
   {
@@ -167,7 +206,7 @@ const content = [
 
   {
     type: "paragraph",
-    text: "Single-cavity machines produce one bottle per cycle, suited for lower-volume operations, while multi-cavity machines (4, 6, 8+ cavities) produce multiple bottles simultaneously, dramatically increasing hourly output for larger bottling plants.",
+    text: "Single-cavity machines produce one bottle per cycle, suited for lower-volume operations, while multi-cavity machines (2, 4 and 6 cavities) produce multiple bottles simultaneously, dramatically increasing hourly output for larger bottling plants.",
   },
 
   {
@@ -404,7 +443,16 @@ const content = [
   },
 
   {
-    type: "h4",
+    type: "paragraph",
+    content: [
+      { text: "Planning a new unit? Read our step-by-step guide on " },
+      { text: "how to start a mineral water bottle manufacturing business", bold: true, link: "/blog/how-to-start-mineral-water-bottle-manufacturing-business" },
+      { text: "." },
+    ],
+  },
+
+  {
+    type: "h2",
     text: "Frequently Asked Questions (FAQs)",
   },
 
@@ -415,6 +463,18 @@ const content = [
         question: "What is a Mineral Water Bottle Making Machine?",
         answer:
           "A Mineral Water Bottle Making Machine is industrial equipment that converts PET preforms into finished mineral water bottles through a stretch blow moulding process involving heating, stretching, and high-pressure air blowing.",
+      },
+      {
+        question:
+          "Who is the best mineral water bottle making machine manufacturer in India?",
+        answer:
+          "Suraj Plastic Industries in Nangloi, New Delhi has manufactured PET stretch blow moulding machines since 1997, with 4000+ machines sold in India and 12+ countries. It offers semi automatic, automatic hand feed and fully automatic mineral water bottle making machines with installation and after-sales support.",
+      },
+      {
+        question:
+          "Can the same machine make 20 litre water jars?",
+        answer:
+          "20 litre jars need a large-container machine. Suraj Plastic Industries' HP-20-CS semi automatic model produces 5 to 25 litre jars at 150–240 jars per hour, while smaller bottles from 200 ml to 2 litres are made on the semi automatic, hand feed or fully automatic models.",
       },
       {
         question:
@@ -514,9 +574,16 @@ const content = [
 export default function MineralWaterBottleMakingMachineManufacturerPage() {
   return (
     <>
+      <JsonLd
+        schemas={[
+          faqSchemaFromBlocks(content),
+          productBreadcrumbSchema(PAGE_NAME, PAGE_PATH),
+        ]}
+      />
+
       <Hero
-        title="Mineral Water Bottle Making Machine Manufacturer"
-        image="/bg.jpg"
+        title={PAGE_NAME}
+        image="/bg.webp"
       />
 
       <SeoRenderer content={content} />

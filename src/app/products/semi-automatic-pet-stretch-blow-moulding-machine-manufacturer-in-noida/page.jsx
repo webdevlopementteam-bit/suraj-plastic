@@ -4,7 +4,7 @@ import Hero from "../../components/product/Hero";
 import SeoRenderer from "../../components/product/SeoRenderer";
 
 export const metadata = {
-  title: "Best Semi Automatic PET Stretch Blow Moulding Machine Manufacturer in Noida",
+  title: "Semi Automatic PET Stretch Blow Moulding Machine in Noida",
 
   description:
     "Suraj Plastic Industries is a trusted Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida, offering reliable PET bottle making solutions.",
@@ -33,14 +33,14 @@ const specRows = [
 const content = [
   {
     type: "h2",
-    text: "Best Semi Automatic PET Stretch Blow Moulding Machine Manufacturer in Noida",
+    text: "Semi Automatic PET Stretch Blow Moulding Machine in Noida",
   },
 
   {
     type: "paragraph",
     content: [
       { text: "When businesses in Noida and the Delhi-NCR region need a reliable " },
-      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true, link: "/products/semi-automatic-pet-stretch-blow-moulding-machine" },
+      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true },
       { text: ", choosing a manufacturer with proven PET machinery expertise is important. " },
       { text: "Suraj Plastic Industries", bold: true, link: "/" },
       { text: " provides semi automatic PET stretch blow moulding solutions designed for manufacturers looking for consistent bottle quality, practical operation, production flexibility and cost-effective manufacturing." },
@@ -102,7 +102,7 @@ const content = [
     type: "paragraph",
     content: [
       { text: "For customers searching for a " },
-      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true, link: "/products/high-speed-pet-perform-stretch-blow-moulding-machine" },
+      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true, link: "/products/semi-automatic-pet-stretch-blow-moulding-machine" },
       { text: ", the company's Delhi-NCR location and experience in PET machinery make it a relevant manufacturing partner for different bottle production requirements." },
     ],
   },
@@ -317,7 +317,7 @@ const content = [
     type: "paragraph",
     content: [
       { text: "If you are searching for a " },
-      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true, link: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine" },
+      { text: "Semi Automatic PET Stretch Blow Moulding Machine manufacturer in Noida", bold: true },
       { text: ", focus on machine reliability, production requirements, bottle quality, technical support and long-term operating costs rather than price alone." },
     ],
   },
@@ -420,7 +420,7 @@ export default function SemiAutomaticPetStretchBlowMouldingMachinePage() {
 
       <Hero
         title="Semi Automatic PET Stretch Blow Moulding Machine Manufacturer in Noida"
-        image="/bg.jpg"
+        image="/bg.webp"
       />
 
       <section className="bg-white pt-16 px-5 lg:px-20">
@@ -429,7 +429,7 @@ export default function SemiAutomaticPetStretchBlowMouldingMachinePage() {
 
           <div className="group rounded-3xl border bg-white p-8 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
             <Image
-              src="/product/product2.png"
+              src="/product/product2.webp"
               alt="Semi Automatic PET Stretch Blow Moulding Machine"
               width={450}
               height={450}
@@ -440,9 +440,9 @@ export default function SemiAutomaticPetStretchBlowMouldingMachinePage() {
           {/* TECHNICAL SPECIFICATION */}
 
           <div>
-            <h3 className="font-baloo text-3xl font-semibold text-[#13233B]">
+            <h2 className="font-baloo text-3xl font-semibold text-[#13233B]">
               Technical Specification
-            </h3>
+            </h2>
 
             <div className="mt-2 h-1 w-24 rounded-full bg-[#D97706]" />
 

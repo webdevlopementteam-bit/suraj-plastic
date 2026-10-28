@@ -79,9 +79,11 @@ export default function SeoRenderer({ content = [] }) {
             case "h4":
               return (
                <div key={index} className="mt-7">
-                  <h4 className="mt-4 font-baloo text-[24px] font-semibold text-[#183153]">
+                  {/* "h4" blocks sit directly under h2 sections, so render them as h3
+                      (same look) to keep the heading hierarchy unbroken */}
+                  <h3 className="mt-4 font-baloo text-[24px] font-semibold text-[#183153]">
                     {block.text}
-                  </h4>
+                  </h3>
                   <span className="inline-block h-1 w-20 rounded-full bg-[#CB6801]" />
                 </div>
               );
@@ -197,9 +199,9 @@ export default function SeoRenderer({ content = [] }) {
                       </div>
 
                       <div className="pb-8">
-                        <h4 className="font-baloo text-[24px] text-[#183153]">
+                        <h3 className="font-baloo text-[24px] text-[#183153]">
                           {item.title}
-                        </h4>
+                        </h3>
 
                         <p className="mt-1 leading-8 text-[#5F6368]">
                           {item.description}
@@ -442,9 +444,9 @@ export default function SeoRenderer({ content = [] }) {
                       key={i}
                       className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
                     >
-                      <h3 className="font-baloo text-5xl text-[#CB6801]">
+                      <p className="font-baloo text-5xl text-[#CB6801]">
                         {item.value}
-                      </h3>
+                      </p>
 
                       <p className="mt-4 text-[#555]">{item.label}</p>
                     </div>
@@ -471,7 +473,7 @@ export default function SeoRenderer({ content = [] }) {
                   </p>
 
                   <a
-                    href="/contact"
+                    href="/contact-us"
                     className="mt-8 inline-flex rounded-full bg-[#CB6801] px-10 py-4 font-semibold text-white transition hover:scale-105"
                   >
                     Get Free Quote

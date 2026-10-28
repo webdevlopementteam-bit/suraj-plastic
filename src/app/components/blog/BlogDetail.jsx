@@ -1,38 +1,55 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlogRenderer from "./BlogRenderer";
+import JsonLd from "../JsonLd";
+import { blogs } from "@/app/data/blogs";
+import { SITE_URL, faqSchemaFromBlocks } from "@/app/lib/seo";
 
 export default function BlogDetail({ blog }) {
+  const url = `${SITE_URL}/blog/${blog.slug}`;
 
-  const faqBlock = blog.content?.find((block) => block.type === "faq");
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: blog.title,
+    description: blog.metaDescription,
+    image: `${SITE_URL}${blog.image}`,
+    datePublished: blog.datePublished,
+    dateModified: blog.dateModified || blog.datePublished,
+    author: { "@type": "Organization", name: blog.author, url: SITE_URL },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    mainEntityOfPage: url,
+  };
 
-  const faqSchema = faqBlock
-    ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: faqBlock.items.map((item) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: item.answer,
-          },
-        })),
-      }
-    : null;
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+      { "@type": "ListItem", position: 3, name: blog.title, item: url },
+    ],
+  };
 
-  const finalSchema = blog.schema || (faqSchema ? [faqSchema] : []);
+  const finalSchema = blog.schema || [
+    articleSchema,
+    breadcrumbSchema,
+    faqSchemaFromBlocks(blog.content),
+  ];
+
+  // Sidebar: explicit related list, otherwise the next three posts (wrapping
+  // around) so every post gets linked from the others
+  const index = blogs.findIndex((item) => item.slug === blog.slug);
+  const related =
+    blog.related ||
+    [1, 2, 3]
+      .map((offset) => blogs[(index + offset) % blogs.length])
+      .filter((item) => item.slug !== blog.slug)
+      .map(({ slug, title }) => ({ slug, title }));
 
   return (
     <>
-      {finalSchema.map((schemaItem, index) => (
-        <script
-          key={index}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaItem) }}
-        />
-      ))}
-      {/* baaki code */}
+      <JsonLd schemas={finalSchema} />
 
       {/* HERO */}
       <section className="relative h-[520px] overflow-hidden">
@@ -65,7 +82,7 @@ export default function BlogDetail({ blog }) {
 
               <span>•</span>
 
-              <span>{blog.date}</span>
+              <time dateTime={blog.datePublished}>{blog.date}</time>
 
               <span>•</span>
 
@@ -133,7 +150,7 @@ export default function BlogDetail({ blog }) {
 
                 <div className="mt-6 space-y-5">
 
-                  {blog.related?.map((item) => (
+                  {related.map((item) => (
 
                     <Link
                       key={item.slug}

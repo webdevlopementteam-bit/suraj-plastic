@@ -5,15 +5,32 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "Who is the best Blow Moulding Machines Manufacturer in Delhi?",
+    question: "Who is the best stretch blow moulding machine manufacturer in India?",
     answer:
-      "Suraj Plastic Industries is a leading Blow Moulding Machines Manufacturer in Delhi, with over 40 years of experience since 1982, ISO 9001:2015 certification, and 4000+ machines sold across India and abroad.",
+      "Suraj Plastic Industries is a leading Stretch Blow Moulding Machine Manufacturer in Delhi, India, with over 40 years of experience since 1982, PET stretch blow moulding machines since 1997, ISO 9001:2015 certification, and 4000+ machines sold across India and abroad.",
   },
   {
     question:
-      "What types of blow moulding machines does Suraj Plastic Industries manufacture?",
+      "What types of stretch blow moulding machines does Suraj Plastic Industries manufacture?",
     answer:
-      "Suraj Plastic Industries manufactures Semi Automatic, High Speed Semi Automatic, Automatic Hand Feed, Auto Drop, and Fully Automatic PET Preform Stretch Blow Moulding Machines, with custom capacities available up to 25 litres.",
+      "Suraj Plastic Industries manufactures Semi Automatic Stretch Blow Moulding Machines, High Speed Semi Automatic machines, Automatic Hand Feed Blow Moulding Machines, Fully Automatic Stretch Blow Moulding Machines and PET Jar Making Machines, with bottle and jar sizes from 50 ml up to 25 litres.",
+  },
+  {
+    question:
+      "What is the difference between a semi automatic and a fully automatic stretch blow moulding machine?",
+    answer:
+      "In a semi automatic stretch blow moulding machine the operator loads heated preforms and removes bottles, giving up to 700 bottles per hour at a lower investment. A fully automatic stretch blow moulding machine feeds preforms and discharges bottles automatically, with outputs up to 6,000 bottles per hour.",
+  },
+  {
+    question: "What is an automatic hand feed blow moulding machine?",
+    answer:
+      "An automatic hand feed blow moulding machine is a PET stretch blow moulding machine in which the operator feeds preforms by hand while stretching, blowing and ejection run automatically. Suraj Plastic Industries' SAB-HF series produces up to 5,400 bottles per hour for 50 ml to 7 litre bottles.",
+  },
+  {
+    question:
+      "Does Suraj Plastic Industries make mineral water bottle making machines?",
+    answer:
+      "Yes. Suraj Plastic Industries is a Mineral Water Bottle Making Machine Manufacturer offering semi automatic, automatic hand feed and fully automatic PET machines for 200 ml to 2 litre water bottles, and large-container machines for 20 litre water jars.",
   },
   {
     question: "What products can be made using these blow moulding machines?",

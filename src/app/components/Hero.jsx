@@ -9,6 +9,7 @@ export default function Hero() {
         muted
         loop
         playsInline
+        poster="/home/hero-poster.webp"
         className="absolute inset-0 h-full w-full object-cover"
       >
         <source src="/home/Sequence-03.mp4" type="video/mp4" />
@@ -21,21 +22,21 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center text-center md:text-left">
         <div className="max-w-3xl md:pl-10 lg:pl-0">
           <h1 className="font-montserrat text-2xl font-semibold leading-10 text-white md:text-5xl lg:text-[45px] lg:leading-[52px]">
-            Engineering Excellence in PET
+            Stretch Blow Moulding Machine{" "}
             <br />
-            Stretch Blow Moulding
+            Manufacturer in India
           </h1>
 
           <p className="mt-5 max-w-3xl font-lato text-base md:text-lg leading-7 text-white/95 px-2 lg:px-0">
-            Our PET Stretch Blow Moulding machines are engineered to deliver
-            superior performance, precision, and production efficiency. Designed
-            with advanced heating, controlled stretching, and high-pressure
-            blowing technology, these machines ensure uniform wall thickness,
-            crystal-clear transparency, and consistent bottle strength across
-            every production cycle. Whether producing small volume containers
-            for beverages and daily-use products or large industrial bottles,
-            the machine guarantees stable moulding results with minimal energy
-            consumption.
+            Suraj Plastic Industries is a trusted Stretch Blow Moulding Machine
+            Manufacturer in Delhi, India, building PET machines since 1997. Our
+            semi automatic, automatic hand feed and fully automatic PET Stretch
+            Blow Moulding machines combine advanced heating, controlled
+            stretching and high-pressure blowing to ensure uniform wall
+            thickness, crystal-clear transparency and consistent bottle
+            strength. From small beverage bottles to large industrial
+            containers, our machines deliver stable moulding results with
+            minimal energy consumption.
           </p>
 
           <Link

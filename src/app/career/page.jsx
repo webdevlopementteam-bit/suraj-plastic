@@ -4,9 +4,9 @@ export const metadata = {
     title: "Career | Suraj Plastic Industries",
 
     description:
-        "At Suraj Plastic, we believe that excellence begins with exceptional people, and as a leading name in plastic manufacturing, we are committed to fostering an environment that encourages innovation, technical growth, and continuous improvement",
+        "Build your career at Suraj Plastic Industries, a PET stretch blow moulding machine manufacturer in Nangloi, New Delhi. Submit your details to apply.",
 
-    keywords: ["surajplastic", "surajplasticindustries"],
+    keywords: ["Suraj Plastic Industries Careers", "Jobs at Suraj Plastic Industries"],
 
     alternates: {
         canonical: "/career",

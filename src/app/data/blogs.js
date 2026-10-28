@@ -1,555 +1,1056 @@
+// Each blog supports one product keyword page and links to it with the exact keyword.
+// Blog titles target informational searches (price, comparison, how-to) so they
+// don't compete with the product pages for the commercial keyword.
+
+const SEMI = "/products/semi-automatic-pet-stretch-blow-moulding-machine";
+const FULLY = "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer";
+const HAND_FEED = "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine";
+const HIGH_SPEED = "/products/high-speed-pet-preform-stretch-blow-moulding-machine";
+const PREFORM = "/products/preform-stretch-blow-moulding-machine-manufacturer";
+const AUTOMATIC = "/products/automatic-pet-bottle-moulding-machine-manufacturer";
+const PET_BLOW = "/products/pet-bottle-blow-machine-manufacturer";
+const MINERAL = "/products/mineral-water-bottle-making-machine-manufacturer";
+const JAR = "/products/pet-jar-making-machine";
+
 export const blogs = [
+    // ==========================================================
+    // 1. Semi Automatic Stretch Blow Moulding Machine
+    // ==========================================================
     {
-        slug: "semi-automatic-stretch-blow-moulding-machine-for-small-businesses",
-
-        title:
-            "Top Benefits of a Semi Automatic Stretch Blow Moulding Machine for Small Businesses",
-
-        category: "Blog",
-
-        image: "/blog8.png",
-
+        slug: "semi-automatic-stretch-blow-moulding-machine-price-in-india",
+        title: "Semi Automatic Stretch Blow Moulding Machine Price in India: Buyer's Guide",
+        category: "Buying Guide",
+        image: "/home/category-1.webp",
         author: "Suraj Plastic Industries",
-
-        date: "August 21, 2026",
-
-        readTime: "10 minutes",
-
-        metaTitle:
-            "Semi Automatic Stretch Blow Moulding Machine for Small Businesses | Suraj Plastic",
-
+        date: "October 27, 2026",
+        datePublished: "2026-10-27",
+        readTime: "8 minutes",
+        metaTitle: "Semi Automatic Stretch Blow Moulding Machine Price in India",
         metaDescription:
-            "Discover the top benefits of a semi automatic stretch blow moulding machine for small businesses, including lower costs, flexible production, and reliable bottle quality.",
-
+            "What decides the price of a semi automatic stretch blow moulding machine in India? Cavities, bottle size, heater, moulds, compressor and running costs explained.",
         keywords:
-            "semi automatic stretch blow moulding machine, semi automatic stretch blow moulding machine in Delhi, stretch blow moulding machine for small businesses",
-
+            "semi automatic stretch blow moulding machine price, semi automatic stretch blow moulding machine price in India, semi automatic PET blow moulding machine cost",
         excerpt:
-            "A semi automatic stretch blow moulding machine is often the ideal starting point for small and medium businesses entering PET bottle manufacturing.",
-
+            "The price of a semi automatic stretch blow moulding machine depends on more than the machine itself. Here is what decides the cost and how to compare quotations.",
         content: [
             {
                 type: "paragraph",
                 content: [
-                    {
-                        text: "Starting a PET bottle manufacturing business is an exciting opportunity, but one of the biggest decisions you'll face early on is choosing the right machine. Many first-time entrepreneurs assume they need to invest in a large, fully automatic production line right from day one. In reality, that's often not the smartest way to start."
-                    },
-                    {
-                        text: " For small and medium businesses, a "
-                    },
-                    {
-                        text: "semi automatic stretch blow moulding machine",
-                        bold: true,
-                        link: "/products/semi-automatic-pet-stretch-blow-moulding-machine"
-                    },
-                    {
-                        text: " is usually the better starting point — and in this article, we'll explain exactly why. We'll also look at why demand for a semi automatic stretch blow moulding machine in Delhi has been growing steadily, and answer some of the most common questions buyers have before making a purchase."
-                    }
-                ]
+                    { text: "If you are planning a PET bottle unit, the first question is usually the price. A " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " is the lowest-investment way to start making PET bottles, but two machines that look similar can have very different quotations. This guide explains what drives the price, what else you must budget for, and how to compare offers fairly." },
+                ],
             },
-            {
-                type: "h2",
-                text: "What Is a Semi Automatic Stretch Blow Moulding Machine?"
-            },
+            { type: "h2", text: "What You Get in a Semi Automatic Stretch Blow Moulding Machine" },
             {
                 type: "paragraph",
-                text: "Before we get into the benefits, let's quickly understand what this machine actually is."
+                text: "A semi automatic machine has two main units: an infrared preform heater (oven) and a blowing unit with the mould. The operator places heated preforms in the mould and removes the finished bottles, while the machine performs clamping, stretching and high-pressure blowing. Suraj Plastic Industries' HP Series covers bottles and jars from 50 ml to 25 litres with outputs up to 700 bottles per hour.",
             },
+            { type: "h2", text: "7 Factors That Decide the Price" },
+            { type: "h3", text: "1. Number of Cavities" },
             {
                 type: "paragraph",
-                text: "A semi automatic stretch blow moulding machine is used to convert PET preforms into finished plastic bottles, using the same core process as a fully automatic machine — heating, stretching, and blowing. The difference lies in how the preforms are loaded and unloaded. In a semi automatic machine, an operator manually places the preform into the machine and removes the finished bottle, while the machine itself handles the heating, stretching, and blowing process."
+                text: "A 2-cavity machine produces two bottles per cycle and costs more than a 1-cavity machine, but gives a lower cost per bottle. Large containers above 3 litres usually run on a single cavity.",
             },
+            { type: "h3", text: "2. Bottle Size Range" },
             {
                 type: "paragraph",
-                text: "This human involvement at the loading stage is exactly what makes semi automatic machines more affordable, flexible, and easier to maintain — which brings us to the real benefits for small businesses."
+                text: "Machines for 5 to 25 litre jars need a longer clamping stroke, larger heater and more air, so they cost more than machines for 200 ml to 1 litre bottles. For example, the HP-1000-2B has a 10 KW heater and 150 MM stroke, while the HP-20-CS for 5 to 25 litre jars has a 32 KW heater and 350 MM stroke.",
             },
-            {
-                type: "h2",
-                text: "1. Lower Investment Cost"
-            },
+            { type: "h3", text: "3. Neck Size" },
             {
                 type: "paragraph",
-                text: "The single biggest reason small businesses choose a semi automatic stretch blow moulding machine is cost. Fully automatic machines come with robotic feeding systems, conveyor automation, and advanced control panels — all of which add significantly to the price."
+                text: "Standard 28 MM water bottle necks are the simplest. Wide-mouth jars with necks up to 96 or 120 MM need a different mould and preform holding system.",
             },
+            { type: "h3", text: "4. Moulds" },
             {
                 type: "paragraph",
-                text: "A semi automatic machine cuts out this extra automation, which means a much lower upfront investment. This makes it possible for new entrepreneurs, small packaged drinking water units, and regional bottling businesses to enter the market without needing a massive capital investment or a large business loan."
+                text: "The mould is often quoted separately. Each new bottle shape or size needs its own mould, so count how many SKUs you will make in the first year.",
             },
+            { type: "h3", text: "5. Heater and Build Quality" },
             {
                 type: "paragraph",
-                text: "If you're testing a new product line, a new bottle size, or simply starting out, a semi automatic machine lets you get into production without over-committing financially."
+                text: "Heater design affects bottle quality and electricity cost for the life of the machine. A heavier frame and quality pneumatic components cost more upfront but reduce breakdowns.",
             },
-            {
-                type: "h2",
-                text: "2. Lower Running and Maintenance Costs"
-            },
+            { type: "h3", text: "6. Compressor and Utilities" },
             {
                 type: "paragraph",
-                text: "Beyond the purchase price, semi automatic machines are also cheaper to run day-to-day. With fewer automated components, sensors, and moving parts, there's simply less that can go wrong — and less that requires expensive servicing."
+                text: "Stretch blow moulding needs high-pressure air at 22 to 25 KG/CM² for blowing, plus a low-pressure supply at about 8 KG/CM². The high-pressure compressor is a major cost and must be sized to the machine's air requirement (0.7 to 2 M³/MIN on HP Series models).",
             },
+            { type: "h3", text: "7. Installation, Training and Service" },
             {
                 type: "paragraph",
-                text: "If a part does need repair or replacement, semi automatic machines are generally easier and cheaper to fix because their mechanical systems are simpler compared to fully automatic lines. This translates directly into lower long-term maintenance costs, which matters a lot for a small business watching every rupee of overhead."
+                text: "A lower quotation that excludes installation, operator training or spare parts can cost more in lost production later. Always check what after-sales support is included.",
             },
-            {
-                type: "h2",
-                text: "3. Easier to Operate and Train Staff On"
-            },
-            {
-                type: "paragraph",
-                text: "Fully automatic machines often require specially trained technicians to operate and troubleshoot the automated systems. For a small business, hiring and retaining that kind of specialized staff can be a real challenge."
-            },
-            {
-                type: "paragraph",
-                text: "A semi automatic stretch blow moulding machine, by comparison, is much simpler to operate. With basic training, your existing staff can learn to load preforms, monitor the cycle, and unload bottles within a short period. This reduces your dependency on highly skilled labour and makes staffing your production line far more manageable."
-            },
-            {
-                type: "h2",
-                text: "4. Flexibility for Multiple Bottle Sizes and Products"
-            },
-            {
-                type: "paragraph",
-                text: "Small businesses often need to produce a variety of bottle shapes and sizes — maybe 200 ml, 500 ml, and 1-litre bottles for different customers, or different product lines. Switching moulds and adjusting settings on a semi automatic machine is generally simpler and faster than reconfiguring a fully automated line."
-            },
-            {
-                type: "paragraph",
-                text: "This flexibility means you can respond quickly to new orders or seasonal demand changes without long changeover downtime — something that matters a great deal when you're trying to serve multiple small clients rather than running one continuous large-scale product line."
-            },
-            {
-                type: "h2",
-                text: "5. Ideal for Low to Medium Production Volumes"
-            },
-            {
-                type: "paragraph",
-                text: "If your business doesn't yet need to produce tens of thousands of bottles per shift, a fully automatic machine's high-speed output capacity would largely go to waste — while still costing you the same in electricity, maintenance, and capital investment."
-            },
-            {
-                type: "paragraph",
-                text: "A semi automatic stretch blow moulding machine is built for exactly this situation: steady, reliable output at a scale that matches a growing small or medium business. As your order volumes increase over time, you can always upgrade to a fully automatic system — but there's no need to overinvest before your business actually needs that capacity."
-            },
-            {
-                type: "h2",
-                text: "6. Faster Return on Investment"
-            },
-            {
-                type: "paragraph",
-                text: "Because the upfront cost is lower and the machine can be operational almost immediately with minimal setup complexity, businesses using a semi automatic stretch blow moulding machine typically see a faster return on investment compared to those starting with expensive, high-capacity automatic lines."
-            },
-            {
-                type: "paragraph",
-                text: "For a new business, getting to profitability sooner isn't just a financial nice-to-have — it's often what determines whether the business survives its critical early years."
-            },
-            {
-                type: "h2",
-                text: "7. Reliable Bottle Quality"
-            },
-            {
-                type: "paragraph",
-                text: "It's a common misconception that semi automatic machines produce lower-quality bottles compared to automatic ones. In reality, the core process — infrared heating, stretching, and high-pressure blowing — is identical in both machine types. The quality of the final bottle depends far more on the engineering of the heating system, mould precision, and air pressure control than on whether loading is manual or automatic."
-            },
-            {
-                type: "paragraph",
-                text: "A well-built semi automatic stretch blow moulding machine, manufactured by an experienced company, will consistently produce clear, strong, properly shaped bottles — the same quality standard your customers expect, regardless of your production scale."
-            },
-            {
-                type: "h2",
-                text: "Growing Demand for Semi Automatic Stretch Blow Moulding Machines in Delhi"
-            },
-            {
-                type: "paragraph",
-                text: "Delhi and the surrounding NCR region have seen strong growth in small-scale packaged drinking water plants, beverage bottling units, and edible oil packaging businesses over the past several years. This is exactly the kind of business environment where a semi automatic stretch blow moulding machine in Delhi makes the most practical sense."
-            },
-            {
-                type: "paragraph",
-                text: "Local businesses benefit from choosing a manufacturer based in or near Delhi for a few important reasons:"
-            },
+            { type: "h2", text: "Total Project Cost Checklist" },
             {
                 type: "list",
                 items: [
-                    "Faster delivery and installation timelines, since the machine doesn't need to travel long distances",
-                    "Easier access to after-sales service and spare parts, reducing downtime if something needs attention",
-                    "On-site training support without the added cost and delay of a technician travelling from another state",
-                    "Better understanding of local business needs, including compact factory space and power supply considerations common in the region"
-                ]
+                    "Semi automatic stretch blow moulding machine (heater + blowing unit)",
+                    "Moulds for each bottle size",
+                    "High-pressure air compressor, air dryer and receiver tank",
+                    "Low-pressure air supply",
+                    "Water chiller for the mould (recommended for consistent cycle time)",
+                    "Electrical panel and wiring",
+                    "Shed space of about 5 × 5 metres for the machine area",
+                    "Preform stock and packing material",
+                ],
+            },
+            { type: "h2", text: "Running Cost: What Changes Your Cost Per Bottle" },
+            {
+                type: "paragraph",
+                text: "Your cost per bottle is mainly preform cost plus electricity, labour and compressor running cost. HP Series machines need two operators. Because PET preform cost is usually the largest share, buying the right preform weight and keeping rejection low matter more than small differences in machine price.",
+            },
+            { type: "h2", text: "Semi Automatic vs Higher Automation" },
+            {
+                type: "comparison",
+                headers: ["Machine", "Typical Output", "Best For"],
+                rows: [
+                    ["Semi Automatic (HP Series)", "Up to 700 BPH", "Startups, multiple SKUs, 5–25 L jars"],
+                    ["High Speed Semi Automatic (HS Series)", "Up to 3,000 BPH", "Higher output with simple operation"],
+                    ["Automatic Hand Feed (SAB-HF)", "Up to 5,400 BPH", "Growing plants"],
+                    ["Fully Automatic (SPI AY)", "Up to 6,000 BPH", "High-volume lines"],
+                ],
             },
             {
                 type: "paragraph",
-                text: "If you're setting up a bottling unit in Delhi or NCR, working with a manufacturer who understands the local business landscape can save you significant time and hassle compared to sourcing your machine from far outside the region."
+                content: [
+                    { text: "If you need more than 1,000 bottles per hour, compare the " },
+                    { text: "high speed PET preform stretch blow moulding machine", bold: true, link: HIGH_SPEED },
+                    { text: " and the " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: " before deciding." },
+                ],
             },
-            {
-                type: "h2",
-                text: "Why Suraj Plastic Industries Is a Trusted Choice"
-            },
-            {
-                type: "paragraph",
-                text: "At Suraj Plastic Industries, we've been manufacturing stretch blow moulding machines since 1982, and over the decades we've supplied more than 3,000 machines to businesses across India — including many small and medium enterprises setting up their very first production line."
-            },
-            {
-                type: "paragraph",
-                text: "Here's what makes our semi automatic stretch blow moulding machines a strong choice for small businesses:"
-            },
+            { type: "h2", text: "How to Get an Accurate Quotation" },
             {
                 type: "list",
                 items: [
-                    "Affordable pricing without compromising on build quality or bottle output consistency",
-                    "Simple, operator-friendly design that requires minimal training",
-                    "Multi-zone infrared heating systems for uniform preform heating and reliable bottle quality",
-                    "Durable, precision-engineered moulds built to last through years of continuous use",
-                    "Complete installation, training, and after-sales support, including for businesses looking for a semi automatic stretch blow moulding machine in Delhi and across the NCR region",
-                    "ISO 9001:2015 certified manufacturing, so you know exactly what quality standard you're getting"
-                ]
+                    "Bottle sizes and shapes (share a sample or drawing)",
+                    "Neck size and preform weight",
+                    "Daily production target and shift hours",
+                    "Application (water, oil, pharma, cosmetics)",
+                    "Available power and space",
+                ],
             },
-            {
-                type: "paragraph",
-                text: "We understand that small businesses can't afford costly downtime or poor-quality machines — which is why we focus on building reliable, long-lasting equipment backed by genuine service support."
-            },
-           
             {
                 type: "faq",
                 items: [
                     {
-                        question: "What is the main difference between a semi automatic and a fully automatic stretch blow moulding machine?",
-                        answer: "The core moulding process — heating, stretching, and blowing — is the same in both. The difference is in preform loading and bottle unloading: a semi automatic stretch blow moulding machine requires manual loading and unloading, while a fully automatic machine handles this with robotic or conveyor-based systems."
+                        question: "What is the price of a semi automatic stretch blow moulding machine in India?",
+                        answer: "There is no single price. It depends on cavities, bottle size range, neck size, heater power, moulds and accessories such as the compressor. Share your bottle size and daily output with the manufacturer for an exact quotation.",
                     },
                     {
-                        question: "Is a semi automatic stretch blow moulding machine good for a small business just starting out?",
-                        answer: "Yes. A semi automatic stretch blow moulding machine is one of the most practical choices for small businesses because of its lower investment cost, simpler operation, and flexibility for producing different bottle sizes without a large upfront commitment."
+                        question: "Is the mould included in the machine price?",
+                        answer: "Not always. Many manufacturers quote moulds separately because each bottle shape needs its own mould. Confirm this in every quotation you compare.",
                     },
                     {
-                        question: "What is the price range for a semi automatic stretch blow moulding machine in Delhi?",
-                        answer: "Pricing depends on factors like the number of cavities, bottle size range, and output capacity. It's best to speak directly with a trusted manufacturer like Suraj Plastic Industries for a quotation based on your specific production needs."
+                        question: "How many bottles per hour does a semi automatic stretch blow moulding machine make?",
+                        answer: "Suraj Plastic Industries' HP Series semi automatic machines produce up to 700 bottles per hour, depending on bottle size and cavities. Large 5 to 25 litre jars run at about 150 to 240 per hour.",
                     },
                     {
-                        question: "Does bottle quality suffer with a semi automatic machine compared to an automatic one?",
-                        answer: "No. Bottle quality depends mainly on the heating system, mould precision, and blowing pressure control — not on whether the preform loading is manual or automatic. A well-built semi automatic stretch blow moulding machine can produce the same quality bottles as an automatic one."
+                        question: "How many operators are needed?",
+                        answer: "HP Series semi automatic machines need two operators per shift.",
                     },
-                    {
-                        question: "How much space is needed to install a semi automatic stretch blow moulding machine?",
-                        answer: "Semi automatic machines generally have a smaller footprint compared to fully automatic lines, since they don't require additional automation equipment like robotic feeders or conveyor systems. This makes them well-suited for smaller factory spaces, which is common among businesses looking for a semi automatic stretch blow moulding machine in Delhi."
-                    },
-                    {
-                        question: "Can I upgrade from a semi automatic to a fully automatic machine later?",
-                        answer: "Yes, many businesses start with a semi automatic stretch blow moulding machine and upgrade to a fully automatic system once their production volumes grow. Starting semi automatic allows you to build your business steadily without overinvesting early on."
-                    }
-                ]
+                ],
             },
             {
-                type: "h2",
-                text: "Final Thoughts"
+                type: "cta",
+                title: "Get a Semi Automatic Machine Quotation",
+                description: "Share your bottle size and daily target and our team will recommend the right HP Series model and utilities.",
+                link: SEMI,
+                button: "View Semi Automatic Machine",
             },
-            {
-                type: "paragraph",
-                content: [
-                    {
-                        text: "A semi-automated stretch blow molding machine provides the ideal mix of cost, ease of use, and dependable output for the majority of small firms starting to manufacture PET bottles—without the significant upfront investment required by a fully autonomous line. Additionally, purchasing a semi-automated "
-                    },
-                    {
-                        text: "stretch automatic blow molding machine",
-                        bold: true,
-                        link: "/products/semi-automatic-pet-stretch-blow-moulding-machine"
-                    },
-                    {
-                        text: " in Delhi from a reputable local manufacturer offers companies in the capital region the added benefit of quicker support and service."
-                    }
-                ]
-            },
-            {
-                type: "paragraph",
-                text: "With more than 40 years of manufacturing experience behind every machine we manufacture, Suraj Plastic Industries can help you choose the best machine for your bottle sizes, budget, and production objectives."
-            },
-            {
-                type: "paragraph",
-                text: "To discuss your needs and receive a quote customized for your company, contact our staff right now."
-            }
-        ]
+        ],
     },
+
+    // ==========================================================
+    // 2. Stretch Blow Moulding Machine Manufacturer (home)
+    // ==========================================================
     {
-        slug: "how-does-a-stretch-blow-moulding-machine-work-step-by-step-guide",
-
-        title:
-            "How Does a Stretch Blow Moulding Machine Work? A Step-by-Step Guide",
-
-        category: "Blog",
-
-        image: "/blog8.png",
-
+        slug: "how-to-choose-stretch-blow-moulding-machine-manufacturer",
+        title: "How to Choose a Stretch Blow Moulding Machine Manufacturer: 10 Checks",
+        category: "Buying Guide",
+        image: "/product/product1.webp",
         author: "Suraj Plastic Industries",
-
-        date: "August 21, 2026",
-
-        readTime: "10 minutes",
-
-        metaTitle:
-            "How Does a Stretch Blow Moulding Machine Work? Step-by-Step Guide | Suraj Plastic",
-
+        date: "October 24, 2026",
+        datePublished: "2026-10-24",
+        readTime: "8 minutes",
+        metaTitle: "How to Choose a Stretch Blow Moulding Machine Manufacturer",
         metaDescription:
-            "Learn how a stretch blow moulding machine works, from PET preform loading and infrared heating to stretching, high-pressure blowing, cooling, and ejection.",
-
+            "10 checks before you buy from a stretch blow moulding machine manufacturer: experience, factory visit, trial run, spares, service, references and quotation terms.",
         keywords:
-            "stretch blow moulding machine, how does a stretch blow moulding machine work, stretch blow moulding machine manufacturer, stretch blow moulding machine manufacturer in Delhi",
-
+            "stretch blow moulding machine manufacturer, how to choose stretch blow moulding machine manufacturer, best stretch blow moulding machine manufacturer in India",
         excerpt:
-            "Learn how a stretch blow moulding machine transforms a PET preform into a finished bottle through controlled heating, stretching, blowing, cooling, and ejection.",
-
+            "The manufacturer you choose matters as much as the machine. Use these 10 checks to compare stretch blow moulding machine manufacturers before you pay an advance.",
         content: [
             {
                 type: "paragraph",
                 content: [
-                    {
-                        text: "You have undoubtedly wondered how a "
-                    },
-                    {
-                        text: "stretch blow molding machine manufacturer",
-                        bold: true,
-                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
-                    },
-                    {
-                        text: " transforms a tiny plastic preform into a finished bottle if you intend to enter the PET bottle manufacturing industry or if you currently manage a production facility and wish to gain a better understanding of your equipment."
-                    }
-                ]
+                    { text: "A PET bottle plant runs on its blowing machine. When it stops, filling and dispatch stop too. That is why choosing the right " },
+                    { text: "stretch blow moulding machine manufacturer", bold: true, link: "/" },
+                    { text: " is as important as choosing the machine. Use these 10 checks before you pay an advance." },
+                ],
             },
+            { type: "h2", text: "1. Years of Experience in PET Stretch Blow Moulding" },
             {
                 type: "paragraph",
-                text: "When you watch it happen on the manufacturing floor, it appears like magic: a transparent, lightweight, precisely shaped bottle emerges a few seconds after a solid tiny plastic tube is inserted. However, there isn't any magic. High-pressure air, controlled heat, and precise engineering all operate together in a very exact order."
+                text: "Stretch blow moulding is a specialised process. Ask how long the company has built PET stretch blow moulding machines specifically, not just how old the company is. Suraj Plastic Industries started in 1982 and has built PET preform stretch blow moulding machines since 1997.",
             },
+            { type: "h2", text: "2. Number of Machines Installed" },
             {
                 type: "paragraph",
-                content: [
-                    {
-                        text: "This article will provide a step-by-step, straightforward explanation of how a "
-                    },
-                    {
-                        text: "stretch blow molding machine manufacturer in Delhi",
-                        bold: true,
-                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
-                    },
-                    {
-                        text: ". This article will provide you with a clear image of the complete process, regardless of whether you are a first-time buyer, a plant owner investigating automation, or simply interested in the technology underlying the bottles you use on a daily basis."
-                    }
-                ]
+                text: "A large installed base means the design has been tested in real factories. Ask how many machines are running and in which industries. Suraj Plastic Industries has sold 4000+ machines in India and exports to 12+ countries.",
             },
+            { type: "h2", text: "3. Full Machine Range" },
             {
                 type: "paragraph",
-                text: "Additionally, we will discuss why Suraj Plastic Industries is a reputable brand if you're looking for a trustworthy stretch blow molding machine manufacturer to establish or improve your manufacturing line."
-            },
-            {
-                type: "paragraph",
-                text: "."
-            },
-            {
-                type: "h2",
-                text: "What Is a Stretch Blow Moulding Machine?"
-            },
-            {
-                type: "paragraph",
-                text: "Before we get into the process, let's understand what this machine actually does."
-            },
-            {
-                type: "paragraph",
-                text: "A stretch blow moulding machine is industrial equipment used to convert a PET preform (a small, thick-walled plastic tube with a pre-formed neck and cap threads) into a fully shaped plastic bottle. It does this using three combined actions: heating the preform, stretching it mechanically, and blowing high-pressure air into it to expand it inside a mould."
-            },
-            {
-                type: "paragraph",
-                text: "This single process — heat, stretch, and blow — is what gives PET bottles their strength, clarity, and light weight. It is the same technology used to manufacture the water bottles, cooking oil containers, and cosmetic bottles you see on store shelves every day."
-            },
-            {
-                type: "paragraph",
-                text: "Now let's look at exactly how this happens inside the machine, stage by stage."
-            },
-            {
-                type: "h2",
-                text: "Step 1: Loading the PET Preform"
-            },
-            {
-                type: "paragraph",
-                text: "The process begins with a PET preform. This is a small, test-tube-shaped piece of plastic with a finished bottle neck and thread already moulded into it. The body of the preform is still thick and solid — it has not taken the shape of a bottle yet."
-            },
-            {
-                type: "paragraph",
-                text: "Depending on the type of machine, this preform is loaded in one of two ways:"
+                text: "A manufacturer with semi automatic, high speed, hand feed and fully automatic models can recommend what you actually need and support you when you upgrade later.",
             },
             {
                 type: "checklist",
                 items: [
-                    [
-                        { text: "Manually, ", bold: true },
-                        { text: "where an operator places each preform into the machine by hand. This is common in semi-automatic stretch blow moulding machines, which are popular among small and medium-scale manufacturers because they are affordable and easier to operate." }
-                    ],
-                    [
-                        { text: "Automatically, ", bold: true },
-                        { text: "using a hopper and feeder system that continuously supplies preforms into the machine without human intervention. This is used in fully automatic stretch blow moulding machines, designed for high-volume, continuous production." }
-                    ]
-                ]
+                    [{ text: "Semi automatic stretch blow moulding machine", bold: true, link: SEMI }, { text: " — up to 700 BPH" }],
+                    [{ text: "High speed PET preform stretch blow moulding machine", bold: true, link: HIGH_SPEED }, { text: " — up to 3,000 BPH" }],
+                    [{ text: "Automatic hand feed blow moulding machine", bold: true, link: HAND_FEED }, { text: " — up to 5,400 BPH" }],
+                    [{ text: "Fully automatic stretch blow moulding machine", bold: true, link: FULLY }, { text: " — up to 6,000 BPH" }],
+                ],
             },
+            { type: "h2", text: "4. Certification" },
             {
                 type: "paragraph",
-                text: "Both approaches work well, but the choice depends entirely on your production volume, budget, and how much automation your business needs."
+                text: "ISO 9001:2015 certification shows the manufacturer follows documented quality processes in design, purchase and testing.",
             },
-            {
-                type: "h2",
-                text: "Step 2: Infrared Heating of the Preform"
-            },
+            { type: "h2", text: "5. Factory Visit and Trial Run" },
             {
                 type: "paragraph",
-                text: "Once loaded, the preform moves into the heating chamber. Here, it passes through a series of infrared heating lamps arranged in multiple zones."
+                text: "Visit the factory. Ask to see a machine running with your preform and check bottle wall thickness, clarity, base shape and neck finish. A trial on your own preform is the best proof of performance.",
             },
+            { type: "h2", text: "6. Mould Making Capability" },
             {
                 type: "paragraph",
-                text: "This step is one of the most critical parts of the entire process, and here is why: the body of the preform needs to reach a precise, uniform softening temperature, while the neck (which already has the finished thread) must stay cool and unaffected. If the neck gets heated, it will lose its shape and the cap will no longer fit properly."
+                text: "Bottle quality depends on the mould as much as the machine. A manufacturer that designs moulds can match a new bottle shape to the machine and fix problems faster.",
             },
+            { type: "h2", text: "7. Spare Parts Availability" },
             {
                 type: "paragraph",
-                text: "A good heating system uses multiple independently controlled zones so that different sections of the preform get exactly the right amount of heat. Uneven heating is one of the biggest causes of bottle defects — it leads to inconsistent wall thickness, weak spots, and bottles that don't hold their shape properly."
+                text: "Ask which spares are kept in stock (heater lamps, seals, valves, cylinders) and how fast they are dispatched. Check that standard components are used so spares are easy to find.",
             },
+            { type: "h2", text: "8. Installation, Training and Service" },
             {
                 type: "paragraph",
-                text: "This is exactly why the quality of the heating system is one of the most important things to check when choosing a stretch blow moulding machine manufacturer. A machine with poor heating control will give you a high rejection rate, no matter how good the rest of the machine is."
+                text: "Confirm that installation, commissioning and operator training are included. Ask how service visits are handled in your city and what the response time is.",
             },
-            {
-                type: "h2",
-                text: "Step 3: Mould Clamping"
-            },
+            { type: "h2", text: "9. Customer References" },
             {
                 type: "paragraph",
-                text: "Once the preform reaches the correct softened temperature, it is transferred into the bottle mould. The mould is essentially a metal cavity shaped exactly like the final bottle you want to produce — whether that's a 500 ml water bottle, a 1-litre oil container, or a 5-litre jar."
+                text: "Ask for contacts of customers in your industry and region, and call them. Ask about breakdowns, spare part delays and how problems were solved.",
             },
+            { type: "h2", text: "10. A Clear Quotation" },
             {
-                type: "paragraph",
-                text: "The two halves of the mould close firmly around the heated preform, sealing it inside. At this point, the preform is soft, hot, and ready to be shaped — but it still looks nothing like a bottle. That transformation happens in the next two steps."
-            },
-            {
-                type: "h2",
-                text: "Step 4: Stretching the Preform"
-            },
-            {
-                type: "paragraph",
-                text: "Here comes the \"stretch\" part of stretch blow moulding, and it's what makes this process different from simple blow moulding."
-            },
-            {
-                type: "paragraph",
-                text: "A metal stretch rod moves down through the centre of the preform, physically pulling it downward to elongate it to the full length of the mould. This mechanical stretching action does something very important — it aligns the plastic molecules vertically, which significantly increases the strength and clarity of the final bottle."
-            },
-            {
-                type: "paragraph",
-                text: "Without this stretching step, bottles would be weaker, cloudier, and less resistant to pressure — which matters a lot for products like carbonated drinks that need to hold internal pressure without deforming."
-            },
-            {
-                type: "h2",
-                text: "Step 5: Blowing High-Pressure Air"
-            },
-            {
-                type: "paragraph",
-                text: "With the preform now stretched vertically, the machine injects high-pressure air — typically in the range of 22 to 25 kg/cm² — into the softened plastic."
-            },
-            {
-                type: "paragraph",
-                text: "This air pressure pushes the plastic outward in all directions, forcing it to expand until it fills every corner of the mould cavity. Within a couple of seconds, the once-small preform transforms into a fully shaped bottle, complete with the exact contours, curves, and branding details built into the mould design."
-            },
-            {
-                type: "paragraph",
-                text: "Consistent, stable blowing pressure is essential here. If the pressure fluctuates even slightly, you get deformed bottles, uneven wall thickness, or bottles that fail during filling and transport. This is another reason why the engineering quality behind the machine matters so much — not every stretch blow moulding machine manufacturer maintains the same level of pressure consistency."
-            },
-            {
-                type: "h2",
-                text: "Step 6: Cooling and Ejection"
-            },
-            {
-                type: "paragraph",
-                text: "Once the bottle has taken its final shape inside the mould, it needs to cool down quickly so it holds that shape permanently. The mould itself is designed to draw heat away from the plastic rapidly, cooling the bottle within seconds."
-            },
-            {
-                type: "paragraph",
-                text: "Once cooled, the mould opens, and the finished bottle is ejected from the machine — ready for the next stage of production, which usually involves filling, capping, and labelling."
-            },
-            {
-                type: "paragraph",
-                text: "From the moment the preform is loaded to the moment the finished bottle is ejected, this entire cycle takes just a few seconds. Multiply that across a full production shift, and you can see why choosing the right machine — with the right output capacity — makes such a big difference to your business."
-            },
-            {
-                type: "h2",
-                text: "Why Machine Quality Matters at Every Step"
-            },
-            {
-                type: "paragraph",
-                text: "As you can see, every single stage of this process — heating, stretching, blowing, and cooling — needs to work in perfect coordination. A weakness in any one stage affects the final bottle quality. That is exactly why choosing an experienced and reliable stretch blow moulding machine manufacturer matters just as much as the machine specifications on paper."
-            },
-            {
-                type: "paragraph",
-                text: "A machine built with precision engineering, stable pneumatic systems, and reliable heating control will consistently produce high-quality bottles with a low rejection rate. A poorly built machine, on the other hand, will cost you more in wasted material, downtime, and rework — even if its upfront price looks attractive."
-            },
-            {
-                type: "h2",
-                text: "Why Choose Suraj Plastic Industries as Your Stretch Blow Moulding Machine Manufacturer"
-            },
-            {
-                type: "paragraph",
-                text: "At Suraj Plastic Industries, we have been manufacturing stretch blow moulding machines since 1982 — over four decades of hands-on experience in PET bottle manufacturing technology. In that time, we have delivered more than 3,000 machines to businesses across India, from small packaged water startups to established beverage and packaging companies."
-            },
-            {
-                type: "paragraph",
-                text: "Here is what sets our machines apart at every step of the process explained above:"
-            },
-            {
-                type: "checklist",
+                type: "list",
                 items: [
-                    [
-                        { text: "Advanced multi-zone infrared heating ", bold: true },
-                        { text: "for uniform preform heating and consistent bottle wall thickness" }
-                    ],
-                    [
-                        { text: "Stable hydro-pneumatic systems ", bold: true },
-                        { text: "that maintain consistent blowing pressure throughout the production cycle" }
-                    ],
-                    [
-                        { text: "Heavy-duty, precision-engineered moulds ", bold: true },
-                        { text: "for sharp bottle definition and long mould life" }
-                    ],
-                    [
-                        { text: "Energy-efficient design ", bold: true },
-                        { text: "that reduces your electricity costs without compromising output" }
-                    ],
-                    [
-                        { text: "Both semi-automatic and fully automatic models, ", bold: true },
-                        { text: "so whether you're a new business or scaling up an established plant, we have a machine suited to your production volume" }
-                    ]
-                ]
+                    "Model, cavities and rated output for your bottle size",
+                    "Whether moulds, compressor and chiller are included",
+                    "Utility requirements: power, air and water",
+                    "Delivery time and payment terms",
+                    "Warranty terms and what they cover",
+                    "Installation and training scope",
+                ],
             },
+            { type: "h2", text: "Red Flags to Avoid" },
             {
-                type: "paragraph",
-                text: "We are also an ISO 9001:2015 certified and NSIC recognized manufacturer, which means our machines are built and inspected to verified quality standards — not just claims on a website."
-            },
-            {
-                type: "paragraph",
-                text: "Beyond the machine itself, we provide complete installation and commissioning support, hands-on operator training, and reliable after-sales service with genuine spare parts — because we know that buying a machine is just the beginning of a long-term production relationship."
-            },
-            {
-                type: "h2",
-                text: "Final Thoughts"
+                type: "list",
+                items: [
+                    "Output claims without stating bottle size and preform weight",
+                    "No machine available to see running",
+                    "Moulds, compressor or installation hidden from the quotation",
+                    "No local service or spare parts stock",
+                ],
             },
             {
                 type: "paragraph",
                 content: [
+                    { text: "Also read our guide to choosing a " },
+                    { text: "PET bottle blow machine manufacturer", bold: true, link: PET_BLOW },
+                    { text: " for a comparison of machine types." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
                     {
-                        text: "When the time comes to purchase a "
+                        question: "Who is the best stretch blow moulding machine manufacturer in India?",
+                        answer: "Choose a manufacturer with long PET stretch blow moulding experience, a large installed base, a full machine range and reliable service. Suraj Plastic Industries in New Delhi has built these machines since 1997 and has sold 4000+ machines.",
                     },
                     {
-                        text: "stretch blow molding machine manufacturer",
-                        bold: true,
-                        link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer"
+                        question: "Should I test the machine before buying?",
+                        answer: "Yes. A trial run with your own preform shows the real bottle quality and output for your bottle size.",
                     },
                     {
-                        text: ", knowing how one operates will help you make a far better choice. Every stage affects the final bottle's quality, from preform loading and infrared heating to stretching, blowing, and cooling."
-                    }
-                ]
+                        question: "What should a stretch blow moulding machine quotation include?",
+                        answer: "Model, cavities, rated output for your bottle, moulds, utilities required, delivery time, warranty, installation and training.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Talk to an Experienced Manufacturer",
+                description: "Visit our factory in Nangloi, New Delhi or share your requirement for a machine recommendation.",
+                link: "/contact-us",
+                button: "Contact Us",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 3. Fully Automatic Stretch Blow Moulding Machine
+    // ==========================================================
+    {
+        slug: "fully-automatic-vs-semi-automatic-stretch-blow-moulding-machine",
+        title: "Fully Automatic vs Semi Automatic Stretch Blow Moulding Machine: Which to Buy?",
+        category: "Comparison",
+        image: "/home/category-4.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 21, 2026",
+        datePublished: "2026-10-21",
+        readTime: "7 minutes",
+        metaTitle: "Fully Automatic vs Semi Automatic Stretch Blow Moulding Machine",
+        metaDescription:
+            "Compare fully automatic and semi automatic stretch blow moulding machines on output, labour, investment, bottle size and flexibility to choose the right one.",
+        keywords:
+            "fully automatic stretch blow moulding machine, fully automatic vs semi automatic stretch blow moulding machine, semi automatic vs fully automatic PET blow moulding machine",
+        excerpt:
+            "Fully automatic or semi automatic? Compare output, labour, investment and flexibility to choose the stretch blow moulding machine that fits your plant.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Both machines use the same process — heat the PET preform, stretch it and blow it into a mould. The difference is how much of the work the machine does on its own. This guide compares a " },
+                    { text: "fully automatic stretch blow moulding machine", bold: true, link: FULLY },
+                    { text: " with a " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " so you can choose the right one for your output and budget." },
+                ],
+            },
+            { type: "h2", text: "How Each Machine Works" },
+            { type: "h3", text: "Semi Automatic" },
+            {
+                type: "paragraph",
+                text: "Preforms are heated in an infrared oven. The operator transfers the heated preform to the mould and removes the finished bottle. The machine controls clamping, stretching and blowing.",
+            },
+            { type: "h3", text: "Fully Automatic" },
+            {
+                type: "paragraph",
+                text: "Preforms are fed from a hopper, oriented, heated, transferred, stretched, blown and discharged automatically. The operator supervises and loads preforms into the hopper.",
+            },
+            { type: "h2", text: "Side-by-Side Comparison" },
+            {
+                type: "comparison",
+                headers: ["Factor", "Semi Automatic", "Fully Automatic"],
+                rows: [
+                    ["Output", "Up to 700 BPH (HP Series)", "Up to 6,000 BPH (SPI AY Series)"],
+                    ["Preform loading", "Manual", "Automatic"],
+                    ["Labour", "2 operators per machine", "Supervision only"],
+                    ["Investment", "Lower", "Higher"],
+                    ["Bottle size range", "50 ml to 25 litres", "600 ml to 2 litres (model dependent)"],
+                    ["Changeover", "Simple, good for many SKUs", "Best for long runs of one size"],
+                    ["Floor space", "About 5 × 5 metres", "Larger, with preform feeding system"],
+                ],
+            },
+            { type: "h2", text: "When a Semi Automatic Machine Makes Sense" },
+            {
+                type: "list",
+                items: [
+                    "You are starting a new unit with limited capital",
+                    "Your requirement is below about 700 bottles per hour",
+                    "You make many bottle sizes in small batches",
+                    "You make large 5 to 25 litre jars",
+                ],
+            },
+            { type: "h2", text: "When a Fully Automatic Machine Makes Sense" },
+            {
+                type: "list",
+                items: [
+                    "You run a high-volume water, CSD or juice line",
+                    "You need 2,000 to 6,000 bottles per hour of one size",
+                    "Labour is costly or hard to find",
+                    "You run two or three shifts every day",
+                ],
+            },
+            { type: "h2", text: "The Middle Option: Automatic Hand Feed" },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "If semi automatic is too slow but fully automatic is beyond your budget, an " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: " gives up to 5,400 bottles per hour with manual preform feeding and an automatic moulding cycle." },
+                ],
+            },
+            { type: "h2", text: "Quick Decision Guide" },
+            {
+                type: "table",
+                headers: ["Your Daily Requirement (8-hour shift)", "Suggested Machine"],
+                rows: [
+                    ["Up to about 5,000 bottles", "Semi automatic"],
+                    ["5,000 to 20,000 bottles", "High speed semi automatic or 2-cavity hand feed"],
+                    ["20,000 to 40,000 bottles", "4 or 6 cavity hand feed"],
+                    ["Above 40,000 bottles of one size", "Fully automatic"],
+                ],
             },
             {
                 type: "paragraph",
-                text: "Selecting a reputable and professional stretch blow moulding machine manufacturer like Suraj Plastic Industries can have a significant impact on your production quality, efficiency, and long-term costs whether you intend to improve your current machinery or start up a new PET bottle production line."
+                text: "These ranges are a starting point. Bottle size, preform weight and shift hours change the answer, so share your exact plan with the manufacturer.",
             },
             {
                 type: "paragraph",
-                text: "Get in contact with our experts right now to talk about your budget, production needs, and bottle sizes. We'll assist you in finding the ideal machine for your company without putting any pressure on you."
-            }
-        ]
+                content: [
+                    { text: "For a full comparison of automated options, read our page on choosing an " },
+                    { text: "automatic PET bottle moulding machine manufacturer", bold: true, link: AUTOMATIC },
+                    { text: "." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "Which is better: fully automatic or semi automatic stretch blow moulding machine?",
+                        answer: "Neither is better for everyone. Semi automatic suits lower volumes, many SKUs and large jars at a lower investment. Fully automatic suits high-volume production of one bottle size with less labour.",
+                    },
+                    {
+                        question: "What is the output of a fully automatic stretch blow moulding machine?",
+                        answer: "Suraj Plastic Industries' SPI AY Series is rated up to 6,000 bottles per hour on select models, depending on bottle size and cavities.",
+                    },
+                    {
+                        question: "Can I upgrade from semi automatic to fully automatic later?",
+                        answer: "Yes. Many plants start with a semi automatic machine and add a hand feed or fully automatic machine as demand grows, keeping the semi automatic machine for large jars or small batches.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Explore the Fully Automatic Range",
+                description: "See SPI AY Series cavity options, bottle sizes and outputs.",
+                link: FULLY,
+                button: "View Fully Automatic Machine",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 4. Preform Stretch Blow Moulding Machine Manufacturer
+    // ==========================================================
+    {
+        slug: "pet-preform-stretch-blow-moulding-process-explained",
+        title: "PET Preform Stretch Blow Moulding Process Explained Step by Step",
+        category: "Guide",
+        image: "/home/category-2.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 17, 2026",
+        datePublished: "2026-10-17",
+        readTime: "7 minutes",
+        metaTitle: "PET Preform Stretch Blow Moulding Process Explained",
+        metaDescription:
+            "How a PET preform becomes a bottle: preform design, infrared heating, stretching, pre-blow, high-pressure blowing, cooling and common defects explained.",
+        keywords:
+            "preform stretch blow moulding, PET preform stretch blow moulding process, preform stretch blow moulding machine manufacturer, how PET bottles are made",
+        excerpt:
+            "From a small test-tube shaped preform to a clear PET bottle in seconds. Here is how the preform stretch blow moulding process works.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Almost every PET water, soft drink and oil bottle starts as a preform. Understanding the process helps you choose the right machine and solve quality problems faster. As a " },
+                    { text: "preform stretch blow moulding machine manufacturer", bold: true, link: PREFORM },
+                    { text: " since 1997, here is how we explain it to our customers." },
+                ],
+            },
+            { type: "h2", text: "What Is a PET Preform?" },
+            {
+                type: "paragraph",
+                text: "A preform is an injection-moulded PET tube with the final bottle neck and thread already formed. The neck does not change during blowing; only the body below the neck is stretched. Preform weight decides how much PET goes into each bottle, and so the bottle's strength and cost.",
+            },
+            { type: "h2", text: "Two-Stage Process" },
+            {
+                type: "paragraph",
+                text: "In two-stage stretch blow moulding, preforms are made on an injection moulding machine (or bought from a preform supplier), stored, and then reheated and blown on a separate blow moulding machine. This lets bottle makers buy preforms and change bottle shapes simply by changing the blow mould.",
+            },
+            { type: "h2", text: "Step-by-Step Process" },
+            { type: "h3", text: "Step 1: Infrared Heating" },
+            {
+                type: "paragraph",
+                text: "Preforms rotate in front of infrared heater lamps so the body heats evenly to the stretching temperature. The neck is kept cool so the thread does not deform.",
+            },
+            { type: "h3", text: "Step 2: Transfer and Mould Clamping" },
+            {
+                type: "paragraph",
+                text: "The heated preform is placed in the blow mould, manually on semi automatic machines or automatically on fully automatic machines, and the mould halves clamp shut.",
+            },
+            { type: "h3", text: "Step 3: Stretching" },
+            {
+                type: "paragraph",
+                text: "A stretch rod pushes down inside the preform and stretches it lengthwise. Stretching aligns the PET molecules, which gives the bottle its strength and clarity.",
+            },
+            { type: "h3", text: "Step 4: Pre-Blow and High-Pressure Blow" },
+            {
+                type: "paragraph",
+                text: "Low-pressure air starts expanding the preform, then high-pressure air (about 22 to 25 KG/CM² on semi automatic machines) pushes the PET against the cold mould wall to form the final shape.",
+            },
+            { type: "h3", text: "Step 5: Cooling, Exhaust and Ejection" },
+            {
+                type: "paragraph",
+                text: "The chilled mould cools the bottle, the air is exhausted, the mould opens and the bottle is removed for filling.",
+            },
+            { type: "h2", text: "Common Defects and Their Causes" },
+            {
+                type: "table",
+                headers: ["Defect", "Likely Cause"],
+                rows: [
+                    ["White / hazy bottle", "Preform overheated or stretched too cold"],
+                    ["Thick base, thin shoulder", "Uneven heating profile"],
+                    ["Bottle not fully formed", "Low blowing pressure or air leak"],
+                    ["Off-centre base", "Stretch rod misalignment or uneven heating"],
+                    ["Deformed neck", "Neck not cooled during heating"],
+                ],
+            },
+            { type: "h2", text: "Choosing a Preform Stretch Blow Moulding Machine" },
+            {
+                type: "list",
+                items: [
+                    "Match the machine to your bottle size and neck size",
+                    "Choose cavities based on daily output",
+                    "Check heater power and heating control",
+                    "Confirm air pressure and compressor requirement",
+                    "Check mould support and spare parts",
+                ],
+            },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Our range covers every scale, from the " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " to the " },
+                    { text: "fully automatic stretch blow moulding machine", bold: true, link: FULLY },
+                    { text: ". Wide-mouth containers are made on our " },
+                    { text: "PET jar making machine", bold: true, link: JAR },
+                    { text: "." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "What is preform stretch blow moulding?",
+                        answer: "It is the process of reheating an injection-moulded PET preform, stretching it with a rod and blowing it with high-pressure air inside a mould to make a bottle.",
+                    },
+                    {
+                        question: "Why is stretching needed?",
+                        answer: "Stretching orients the PET molecules, which makes the bottle stronger, lighter and clearer than simple blow moulding.",
+                    },
+                    {
+                        question: "Can one machine make different bottle sizes?",
+                        answer: "Yes, within its size range, by changing the mould and adjusting heating and stroke. Each bottle shape needs its own mould.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Need a Preform Stretch Blow Moulding Machine?",
+                description: "See our HP Series machines for 50 ml to 25 litre bottles.",
+                link: PREFORM,
+                button: "View Preform Machines",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 5. PET Bottle Blow Machine Manufacturer
+    // ==========================================================
+    {
+        slug: "pet-bottle-blow-machine-maintenance-checklist",
+        title: "PET Bottle Blow Machine Maintenance Checklist: Daily, Weekly & Monthly",
+        category: "Maintenance",
+        image: "/product/product3.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 14, 2026",
+        datePublished: "2026-10-14",
+        readTime: "6 minutes",
+        metaTitle: "PET Bottle Blow Machine Maintenance Checklist",
+        metaDescription:
+            "Daily, weekly and monthly maintenance checklist for PET bottle blow machines: heaters, air system, moulds, stretch rods, seals and chiller to reduce downtime.",
+        keywords:
+            "PET bottle blow machine maintenance, PET bottle blow machine, PET blow moulding machine maintenance checklist, PET bottle blow machine manufacturer",
+        excerpt:
+            "Most blowing machine breakdowns start as small problems. Use this daily, weekly and monthly checklist to keep your PET bottle blow machine running.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "A PET bottle blow machine works under high air pressure and heat every cycle. Regular maintenance keeps bottle quality steady and prevents long stoppages. This checklist is based on what we see in the field as a " },
+                    { text: "PET bottle blow machine manufacturer", bold: true, link: PET_BLOW },
+                    { text: ". Always follow the manual supplied with your machine." },
+                ],
+            },
+            { type: "h2", text: "Daily Checks" },
+            {
+                type: "list",
+                items: [
+                    "Drain water from the compressor receiver tank and air filters",
+                    "Check high- and low-pressure gauges reach set values",
+                    "Check all heater lamps are working",
+                    "Listen for air leaks at valves, hoses and the blow nozzle",
+                    "Check chiller water flow to the mould",
+                    "Clean preform dust and PET flakes from the heater and mould area",
+                    "Inspect the first bottles for clarity, base and neck",
+                ],
+            },
+            { type: "h2", text: "Weekly Checks" },
+            {
+                type: "list",
+                items: [
+                    "Lubricate guides and moving parts as per the manual",
+                    "Check stretch rod alignment and tip condition",
+                    "Inspect blow nozzle seals and replace if worn",
+                    "Clean the mould vents and cavity surface",
+                    "Tighten loose electrical terminals and pneumatic fittings",
+                    "Check heater reflectors for dirt",
+                ],
+            },
+            { type: "h2", text: "Monthly Checks" },
+            {
+                type: "list",
+                items: [
+                    "Service the compressor and air dryer as per their manuals",
+                    "Check cylinder seals for leaks",
+                    "Check mould cooling channels for scale",
+                    "Inspect the electrical panel and heater wiring",
+                    "Record output and rejection rate to spot trends",
+                ],
+            },
+            { type: "h2", text: "Spare Parts to Keep in Stock" },
+            {
+                type: "list",
+                items: [
+                    "Heater lamps",
+                    "Blow nozzle seals and O-rings",
+                    "Solenoid valves",
+                    "Pneumatic hoses and fittings",
+                    "Stretch rod tip",
+                    "Fuses and relays",
+                ],
+            },
+            { type: "h2", text: "Signs Your Machine Needs Service" },
+            {
+                type: "table",
+                headers: ["Symptom", "What to Check"],
+                rows: [
+                    ["Rejection rate rising", "Heater lamps, heating profile, air pressure"],
+                    ["Cycle time increasing", "Air supply, chiller temperature, valves"],
+                    ["Hazy bottles", "Heating temperature and mould cooling"],
+                    ["Air leaking sound", "Seals, hoses and nozzle"],
+                ],
+            },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Our team provides spares and service for all Suraj machines, from the " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " to the " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: ". Visit our " },
+                    { text: "spare and service", bold: true, link: "/spare-service" },
+                    { text: " page for support." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "How often should a PET bottle blow machine be serviced?",
+                        answer: "Do daily and weekly checks yourself, and plan a detailed service every month or as recommended in the machine manual, plus a yearly overhaul of seals and valves.",
+                    },
+                    {
+                        question: "Why are my PET bottles coming out hazy?",
+                        answer: "Haze usually means the preform is overheated or not cooled fast enough in the mould. Check heater settings, lamp condition and chiller water temperature.",
+                    },
+                    {
+                        question: "Which spare parts wear out fastest?",
+                        answer: "Heater lamps, blow nozzle seals, O-rings and solenoid valves are the most common replacement parts.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Need Spares or Service?",
+                description: "Contact our service team for spare parts and machine support.",
+                link: "/spare-service",
+                button: "Spare & Service",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 6. Automatic PET Bottle Moulding Machine Manufacturer
+    // ==========================================================
+    {
+        slug: "automatic-pet-bottle-moulding-machine-output-and-roi",
+        title: "Automatic PET Bottle Moulding Machine: Output, Utilities and ROI",
+        category: "Buying Guide",
+        image: "/product/product5.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 10, 2026",
+        datePublished: "2026-10-10",
+        readTime: "7 minutes",
+        metaTitle: "Automatic PET Bottle Moulding Machine: Output & ROI Guide",
+        metaDescription:
+            "How to calculate output, utilities and return on investment for an automatic PET bottle moulding machine, with hand feed and fully automatic model data.",
+        keywords:
+            "automatic PET bottle moulding machine, automatic PET bottle moulding machine manufacturer, automatic PET bottle making machine ROI, PET bottle machine output calculation",
+        excerpt:
+            "Before buying an automatic PET bottle moulding machine, work out the output you need, the utilities it will use and how quickly it will pay back.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Moving from manual to automatic production is a big investment. This guide shows how to size an automatic machine, plan utilities and estimate payback. For model details, see our page as an " },
+                    { text: "automatic PET bottle moulding machine manufacturer", bold: true, link: AUTOMATIC },
+                    { text: "." },
+                ],
+            },
+            { type: "h2", text: "Step 1: Calculate the Output You Need" },
+            {
+                type: "paragraph",
+                text: "Required bottles per hour = daily bottle requirement ÷ effective production hours. Use effective hours, not shift hours: allow time for start-up, mould changes and breaks. For example, 40,000 bottles a day over 16 effective hours needs 2,500 bottles per hour.",
+            },
+            { type: "h2", text: "Step 2: Pick the Model" },
+            {
+                type: "table",
+                headers: ["Model", "Type", "Bottle Size", "Rated Output"],
+                rows: [
+                    ["SAB-1000-2BHF", "Automatic Hand Feed", "100 ML – 1000 ML", "1700–2000 BPH"],
+                    ["SAB-500-4BHF", "Automatic Hand Feed", "50 ML – 500 ML", "3000–3600 BPH"],
+                    ["SAB-1000-4BHF", "Automatic Hand Feed", "100 ML – 1000 ML", "3000–3600 BPH"],
+                    ["SAB-500-6BHF", "Automatic Hand Feed", "50 ML – 500 ML", "4800–5400 BPH"],
+                    ["SPI AY600 (6 cavity)", "Fully Automatic", "600 ML", "Up to 6,000 BPH"],
+                ],
+            },
+            {
+                type: "paragraph",
+                text: "Choose a model whose rated output is about 10 to 20 percent above your requirement, so you can meet peak demand without running at the limit.",
+            },
+            { type: "h2", text: "Step 3: Plan Utilities" },
+            {
+                type: "list",
+                items: [
+                    "Power: 36 KW to 60 KW connected load on SAB-HF models",
+                    "Low-pressure air: 2–3 M³/MIN at 10 KG/CM²",
+                    "High-pressure air: 2–3 M³/MIN at 25 KG/CM²",
+                    "Chilled water: 3–4 M³/HR at 5°C",
+                    "Space: about 6.5 × 6.5 to 8 × 7 metres, 3.5 metres high",
+                ],
+            },
+            {
+                type: "paragraph",
+                text: "The high-pressure compressor and chiller are often the second and third largest costs after the machine, so include them in your budget from the start.",
+            },
+            { type: "h2", text: "Step 4: Estimate Return on Investment" },
+            {
+                type: "paragraph",
+                text: "Monthly saving = (labour saved + lower rejection + extra bottles sold) − extra power and maintenance cost. Payback period (months) = total project cost ÷ monthly saving. Use your own local costs for labour, power and bottle margin; these vary widely by city and product.",
+            },
+            {
+                type: "list",
+                items: [
+                    "Labour: automatic machines need fewer operators per 1,000 bottles",
+                    "Rejection: automatic cycles give more consistent bottles",
+                    "Capacity: more output from the same shed space",
+                    "Power: higher connected load, but lower power per bottle at full output",
+                ],
+            },
+            { type: "h2", text: "Hand Feed or Fully Automatic?" },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "The " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: " has a lower investment and handles bottles up to 7 litres. The " },
+                    { text: "fully automatic stretch blow moulding machine", bold: true, link: FULLY },
+                    { text: " removes manual preform feeding for the highest volumes of one size." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "How do I calculate the output I need from an automatic PET bottle moulding machine?",
+                        answer: "Divide your daily bottle requirement by effective production hours, then choose a model rated about 10 to 20 percent above that figure.",
+                    },
+                    {
+                        question: "What utilities does an automatic PET bottle moulding machine need?",
+                        answer: "Electrical power, low-pressure and high-pressure compressed air, chilled water for the mould and enough floor space. SAB-HF models need 36 to 60 KW, 2 to 3 M³/MIN of air at 10 and 25 KG/CM² and 3 to 4 M³/HR of 5°C water.",
+                    },
+                    {
+                        question: "How long does an automatic PET bottle machine take to pay back?",
+                        answer: "It depends on your labour cost, power cost, bottle margin and how many hours you run. Calculate monthly savings and divide the total project cost by that figure.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Size Your Automatic Machine",
+                description: "Share your daily target and bottle size for a model and utility recommendation.",
+                link: AUTOMATIC,
+                button: "View Automatic Machines",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 7. Automatic Hand Feed Blow Moulding Machine
+    // ==========================================================
+    {
+        slug: "when-to-upgrade-to-automatic-hand-feed-blow-moulding-machine",
+        title: "When to Upgrade to an Automatic Hand Feed Blow Moulding Machine",
+        category: "Guide",
+        image: "/home/category-3.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 7, 2026",
+        datePublished: "2026-10-07",
+        readTime: "6 minutes",
+        metaTitle: "When to Upgrade to an Automatic Hand Feed Blow Moulding Machine",
+        metaDescription:
+            "6 signs it is time to move from a semi automatic machine to an automatic hand feed blow moulding machine, with output, models and planning tips.",
+        keywords:
+            "automatic hand feed blow moulding machine, automatic hand feed PET perform stretch blow moulding machine, upgrade semi automatic blow moulding machine",
+        excerpt:
+            "Running two or three semi automatic machines and still short of bottles? Here are the signs it is time to upgrade to an automatic hand feed machine.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Many plants start with a semi automatic machine. As orders grow, the next step is usually an " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: " — also called an automatic hand feed PET perform stretch blow moulding machine. The operator feeds preforms by hand, and the machine automatically heats, stretches, blows and ejects the bottles." },
+                ],
+            },
+            { type: "h2", text: "6 Signs It Is Time to Upgrade" },
+            { type: "h3", text: "1. You Run More Than One Semi Automatic Machine for the Same Bottle" },
+            {
+                type: "paragraph",
+                text: "One 4-cavity hand feed machine (3,000–3,600 BPH) can replace several semi automatic machines of up to 700 BPH each, with fewer operators and less floor space.",
+            },
+            { type: "h3", text: "2. Orders Are Waiting for Bottles" },
+            {
+                type: "paragraph",
+                text: "If filling lines wait for bottles in peak season, your blowing capacity is the bottleneck.",
+            },
+            { type: "h3", text: "3. Labour Is Hard to Find or Retain" },
+            {
+                type: "paragraph",
+                text: "An automatic cycle reduces dependence on skilled operators for transferring and removing bottles.",
+            },
+            { type: "h3", text: "4. Bottle Quality Varies Between Operators" },
+            {
+                type: "paragraph",
+                text: "Automatic transfer and blowing give the same timing every cycle, so wall thickness and weight stay consistent across shifts.",
+            },
+            { type: "h3", text: "5. You Run Long Batches of the Same Size" },
+            {
+                type: "paragraph",
+                text: "Hand feed machines give their best return on long runs of 200 ml to 1 litre water bottles.",
+            },
+            { type: "h3", text: "6. You Are Adding a Second or Third Shift" },
+            {
+                type: "paragraph",
+                text: "If you already run extra shifts to meet demand, higher hourly output can be cheaper than more shifts.",
+            },
+            { type: "h2", text: "Automatic Hand Feed Models" },
+            {
+                type: "table",
+                headers: ["Model", "Cavities", "Bottle Size", "Output"],
+                rows: [
+                    ["SAB-500-4BHF", "4", "50 ML – 500 ML", "3000–3600 BPH"],
+                    ["SAB-500-6BHF", "6", "50 ML – 500 ML", "4800–5400 BPH"],
+                    ["SAB-1000-2BHF", "2", "100 ML – 1000 ML", "1700–2000 BPH"],
+                    ["SAB-1000-4BHF", "4", "100 ML – 1000 ML", "3000–3600 BPH"],
+                    ["SAB-2000-2JBHF", "2", "200 ML – 2000 ML", "1200–1600 BPH"],
+                    ["SAB-5000-JBHF", "2 / 1", "1000 ML – 7000 ML", "Up to 1600 BPH"],
+                ],
+            },
+            { type: "h2", text: "What to Plan Before Upgrading" },
+            {
+                type: "list",
+                items: [
+                    "Larger compressor: 2–3 M³/MIN at 10 and 25 KG/CM²",
+                    "Chiller: 3–4 M³/HR of water at 5°C",
+                    "Power: 36 to 60 KW connected load",
+                    "Space: about 6.5 × 6.5 to 8 × 7 metres",
+                    "Preform supply to match the higher output",
+                ],
+            },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Keep your existing " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " for large jars and small batches, and use the hand feed machine for high-volume bottles. If you need still more output of one size, compare the " },
+                    { text: "fully automatic stretch blow moulding machine", bold: true, link: FULLY },
+                    { text: "." },
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "What is an automatic hand feed blow moulding machine?",
+                        answer: "It is a PET stretch blow moulding machine where the operator feeds preforms by hand while heating, stretching, blowing and ejection run automatically.",
+                    },
+                    {
+                        question: "How much output does an automatic hand feed machine give?",
+                        answer: "Suraj Plastic Industries' SAB-HF series gives 1,200 to 5,400 bottles per hour depending on cavities and bottle size.",
+                    },
+                    {
+                        question: "Is automatic hand feed the same as automatic hand feed PET perform stretch blow moulding machine?",
+                        answer: "Yes, both names describe the same type of machine.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Ready to Upgrade?",
+                description: "See full specifications of our automatic hand feed range.",
+                link: HAND_FEED,
+                button: "View Hand Feed Machine",
+            },
+        ],
+    },
+
+    // ==========================================================
+    // 8. Mineral Water Bottle Making Machine Manufacturer
+    // ==========================================================
+    {
+        slug: "how-to-start-mineral-water-bottle-manufacturing-business",
+        title: "How to Start a Mineral Water Bottle Manufacturing Business in India",
+        category: "Business Guide",
+        image: "/home/water-jar.webp",
+        author: "Suraj Plastic Industries",
+        date: "October 3, 2026",
+        datePublished: "2026-10-03",
+        readTime: "8 minutes",
+        metaTitle: "How to Start a Mineral Water Bottle Manufacturing Business",
+        metaDescription:
+            "Plan a mineral water bottle manufacturing unit in India: bottle sizes, machine choice, capacity, utilities, space, approvals and step-by-step setup.",
+        keywords:
+            "mineral water bottle making business, mineral water bottle making machine, mineral water bottle making machine manufacturer, how to start PET bottle manufacturing business",
+        excerpt:
+            "Planning to make PET bottles for packaged drinking water? Here is a step-by-step guide to bottle sizes, machines, capacity and setup.",
+        content: [
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Packaged drinking water plants need a steady supply of PET bottles. Making bottles in-house, or supplying them to local water plants, is a common business for new entrepreneurs. This guide covers the main decisions. For machine options, see our page as a " },
+                    { text: "mineral water bottle making machine manufacturer", bold: true, link: MINERAL },
+                    { text: "." },
+                ],
+            },
+            { type: "h2", text: "Step 1: Decide Your Bottle Sizes" },
+            {
+                type: "list",
+                items: [
+                    "200 ml and 250 ml — events, hotels, weddings",
+                    "500 ml — retail and travel",
+                    "1 litre — the highest-volume retail size",
+                    "2 litre — family packs",
+                    "20 litre jars — home and office dispensers",
+                ],
+            },
+            { type: "h2", text: "Step 2: Choose the Machine" },
+            {
+                type: "table",
+                headers: ["Stage of Business", "Suggested Machine", "Output"],
+                rows: [
+                    ["Starting out / many sizes", "Semi automatic (HP Series)", "Up to 700 BPH"],
+                    ["Growing local supply", "High speed semi automatic (HS Series)", "Up to 3,000 BPH"],
+                    ["Supplying several water plants", "Automatic hand feed (SAB-HF)", "Up to 5,400 BPH"],
+                    ["Large bottling line", "Fully automatic (SPI AY)", "Up to 6,000 BPH"],
+                    ["20 litre jars", "HP-20-CS semi automatic", "150–240 jars per hour"],
+                ],
+            },
+            {
+                type: "paragraph",
+                content: [
+                    { text: "Most new units start with a " },
+                    { text: "semi automatic stretch blow moulding machine", bold: true, link: SEMI },
+                    { text: " and add an " },
+                    { text: "automatic hand feed blow moulding machine", bold: true, link: HAND_FEED },
+                    { text: " as orders grow." },
+                ],
+            },
+            { type: "h2", text: "Step 3: Calculate Capacity" },
+            {
+                type: "paragraph",
+                text: "Estimate monthly bottle demand from your customers, divide by working days and effective hours to get bottles per hour, then add 10 to 20 percent for growth and peak summer demand.",
+            },
+            { type: "h2", text: "Step 4: Plan Space and Utilities" },
+            {
+                type: "list",
+                items: [
+                    "Machine area: about 5 × 5 metres for a semi automatic machine",
+                    "Separate clean storage for preforms and finished bottles",
+                    "Three-phase power supply sized to the heater and compressor",
+                    "High-pressure compressor (22–25 KG/CM²) and low-pressure air",
+                    "Water chiller for the mould",
+                ],
+            },
+            { type: "h2", text: "Step 5: Source Preforms" },
+            {
+                type: "paragraph",
+                text: "Buy preforms with the right neck size (commonly 28 MM for water bottles) and weight for your bottle. Lighter preforms save PET cost but must still give enough strength for stacking and transport.",
+            },
+            { type: "h2", text: "Step 6: Registrations and Approvals" },
+            {
+                type: "paragraph",
+                text: "You will typically need business registration, GST and local factory or trade permissions. If you also bottle drinking water, packaged drinking water in India requires BIS certification under IS 14543 and an FSSAI licence. Requirements change, so confirm current rules with the authorities or a consultant.",
+            },
+            { type: "h2", text: "Step 7: Install, Train and Start Production" },
+            {
+                type: "paragraph",
+                text: "Your machine manufacturer should install and commission the machine, train operators and help you set heating and blowing parameters for your preform and bottle.",
+            },
+            { type: "h2", text: "Hygiene Tips for Water Bottle Production" },
+            {
+                type: "list",
+                items: [
+                    "Keep the blowing area clean and dust-free",
+                    "Store preforms and bottles covered and off the floor",
+                    "Use oil-free or well-filtered compressed air",
+                    "Train operators to handle bottles with clean gloves",
+                ],
+            },
+            {
+                type: "faq",
+                items: [
+                    {
+                        question: "Which machine is best to start a mineral water bottle business?",
+                        answer: "Most new units start with a semi automatic stretch blow moulding machine because of its lower investment and flexibility across bottle sizes, then add automatic machines as demand grows.",
+                    },
+                    {
+                        question: "Can the same machine make 1 litre bottles and 20 litre jars?",
+                        answer: "No. 20 litre jars need a large-container machine such as the HP-20-CS. Small bottles from 200 ml to 2 litres are made on separate machines.",
+                    },
+                    {
+                        question: "How much space do I need?",
+                        answer: "A semi automatic machine needs about 5 × 5 metres, plus space for the compressor, chiller and storage of preforms and bottles.",
+                    },
+                ],
+            },
+            {
+                type: "cta",
+                title: "Plan Your Water Bottle Unit",
+                description: "Share your bottle sizes and target output for a complete machine recommendation.",
+                link: MINERAL,
+                button: "View Mineral Water Machines",
+            },
+        ],
     },
 ];

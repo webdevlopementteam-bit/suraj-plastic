@@ -58,8 +58,10 @@ function renderInlineContent(parts = []) {
 }
 
 export default function ProductOverview({ product }) {
-  const introTitle = product.overviewIntro?.title;
-  const introParagraphs = product.overviewIntro?.paragraphs ?? [];
+  // Fall back to shortDescription so the column beside the image is never empty
+  const introTitle = product.overviewIntro?.title ?? product.overviewTitle;
+  const introParagraphs =
+    product.overviewIntro?.paragraphs ?? product.shortDescription ?? [];
 
   return (
     <section className="bg-white pt-20 pb-10 px-5 lg:px-20">

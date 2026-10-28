@@ -87,7 +87,7 @@ export default function Services() {
       <section className="relative py-12 px-10 overflow-hidden">
         {/* Background */}
 
-        <Image src="/home/bg2.jpg" alt="Stats" fill className="object-cover" />
+        <Image src="/home/bg2.webp" alt="Stats" fill className="object-cover" />
 
         {/* Overlay */}
 
@@ -98,9 +98,9 @@ export default function Services() {
             {/* Left */}
 
             <div>
-              <h2 className="font-baloo text-white text-[35px] md:text-[50px] leading-[1.15] font-semibold">
+              <span className="block font-baloo text-white text-[35px] md:text-[50px] leading-[1.15] font-semibold">
                 Shaping Quality for Tomorrow's Production Needs
-              </h2>
+              </span>
             </div>
 
             {/* Right */}
@@ -119,12 +119,12 @@ export default function Services() {
 
                   <div className="relative z-10 flex h-[250px] flex-col items-center justify-center text-white">
                     <div className="mb-4">
-                      <Image src={item.icon} width={70} height={70} />
+                      <Image src={item.icon} alt={item.title} width={70} height={70} />
                     </div>
 
-                    <h3 className="font-baloo text-[50px] font-semibold">
+                    <p className="font-baloo text-[50px] font-semibold">
                       {item.number}
-                    </h3>
+                    </p>
 
                     <p className=" font-urbanist text-[25px] font-bold text-center">
                       {item.title}
@@ -137,9 +137,9 @@ export default function Services() {
         </div>
       </section>
       <section className="pt-7 md:pt-14">
-        <h2 className="text-center font-baloo text-[35px] font-bold">
+        <span className="block text-center font-baloo text-[35px] font-bold">
           Countries we Serve
-        </h2>
+        </span>
         <div className="">
           <video
             autoPlay

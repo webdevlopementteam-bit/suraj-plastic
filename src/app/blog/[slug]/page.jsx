@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { blogs } from "@/app/data/blogs";
+import { SITE_URL } from "@/app/lib/seo";
 
 import BlogDetail from "../../components/blog/BlogDetail";
 
@@ -21,13 +22,18 @@ export async function generateMetadata({ params }) {
     keywords: blog.keywords,
 
     openGraph: {
+      type: "article",
+      url: `${SITE_URL}/blog/${blog.slug}`,
+      siteName: "Suraj Plastic Industries",
+      locale: "en_IN",
       title: blog.metaTitle,
       description: blog.metaDescription,
       images: [blog.image],
+      publishedTime: blog.datePublished,
     },
 
     alternates: {
-      canonical: `https://www.surajplasticindustries.in/blog/${blog.slug}`,
+      canonical: `${SITE_URL}/blog/${blog.slug}`,
     },
   };
 }

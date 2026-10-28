@@ -4,6 +4,10 @@ import Image from "next/image";
 export const metadata = {
   title: "Thank You | Suraj Plastic Industries",
   description: "Thank you for contacting Suraj Plastic Industries.",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function ThankYouPage() {

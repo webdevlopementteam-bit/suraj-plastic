@@ -3,10 +3,10 @@ import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
 
 export const metadata = {
-    title: "Buy PET Stretch Blow Moulding Machines from Suraj Plastic Industries",
+    title: "PET Stretch Blow Moulding Machines | Suraj Plastic Industries",
     description:
-        "Buy PET Stretch Blow Moulding Machines from Suraj Plastic Industries for reliable, efficient PET bottle production with consistent performance and easy operation. from Plastic Industries",
-    keywords: "Buy PET Stretch Blow Moulding Machines",
+        "Semi automatic, high speed, hand feed and fully automatic PET stretch blow moulding machines by Suraj Plastic Industries. 50 ml to 25 L, up to 6,000 BPH.",
+    keywords: "PET Stretch Blow Moulding Machines, Stretch Blow Moulding Machine Manufacturer, Buy PET Stretch Blow Moulding Machines, PET Bottle Making Machine",
     alternates: {
         canonical: "/products",
     },
@@ -14,29 +14,49 @@ export const metadata = {
 
 export const products = [
   {
-    name: "Pet Perform Stretch Blow Moulding Machine",
+    name: "Semi Automatic Stretch Blow Moulding Machine",
     slug: "semi-automatic-pet-stretch-blow-moulding-machine",
-    image: "/product/product1.png",
+    image: "/product/product1.webp",
   },
   {
     name: "High Speed Pet Perform Stretch Blow Moulding Machine",
-    slug: "high-speed-pet-perform-stretch-blow-moulding-machine",
-    image: "/product/product2.png",
+    slug: "high-speed-pet-preform-stretch-blow-moulding-machine",
+    image: "/product/product2.webp",
   },
   {
     name: "Pet Jar Making Machine",
     slug: "pet-jar-making-machine",
-    image: "/product/product3.png",
+    image: "/product/product3.webp",
   },
   {
     name: "Automatic Hand Feed Pet Perform Stretch Blow Moulding Machine",
     slug: "automatic-hand-feed-pet-perform-stretch-blow-moulding-machine",
-    image: "/product/product44.png",
+    image: "/product/product44.webp",
   },
   {
-    name: "Fully Automatic Pet Perform Stretch Blow Moulding Machine",
-    slug: "fully-automatic-pet-stretch-blow-moulding-machine",
-    image: "/product/product5.png",
+    name: "Fully Automatic Stretch Blow Moulding Machine",
+    slug: "fully-automatic-pet-stretch-blow-moulding-machine-manufacturer",
+    image: "/product/product5.webp",
+  },
+  {
+    name: "Preform Stretch Blow Moulding Machine Manufacturer",
+    slug: "preform-stretch-blow-moulding-machine-manufacturer",
+    image: "/product/product1.webp",
+  },
+  {
+    name: "Automatic PET Bottle Moulding Machine Manufacturer",
+    slug: "automatic-pet-bottle-moulding-machine-manufacturer",
+    image: "/product/product5.webp",
+  },
+  {
+    name: "PET Bottle Blow Machine Manufacturer",
+    slug: "pet-bottle-blow-machine-manufacturer",
+    image: "/product/product2.webp",
+  },
+  {
+    name: "Mineral Water Bottle Making Machine Manufacturer",
+    slug: "mineral-water-bottle-making-machine-manufacturer",
+    image: "/product/product44.webp",
   },
 ];
 
@@ -48,7 +68,7 @@ export default function ProductsPage() {
             <section className="relative h-[420px] overflow-hidden">
 
                 <Image
-                    src="/home/hot-juice.jpg"
+                    src="/home/hot-juice.webp"
                     alt="Products"
                     fill
                     priority
@@ -83,7 +103,7 @@ export default function ProductsPage() {
                         </div>
 
                         <h1 className="mt-7 font-baloo text-4xl md:text-6xl font-semibold text-white">
-                            Our Products
+                            Stretch Blow Moulding Machines
                         </h1>
 
                         <div className="mt-5 h-1 w-28 rounded-full bg-[#CB6801]" />

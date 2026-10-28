@@ -34,7 +34,7 @@ const CareerForm = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: "url('/career-bg.avif')",
+                        backgroundImage: "url('/career-bg.webp')",
                     }}
                 />
 
@@ -50,9 +50,9 @@ const CareerForm = () => {
 
         <div className="mx-auto max-w-6xl text-center">
 
-          <h2 className="font-baloo text-[40px] font-semibold text-[#CB6801]">
+          <h1 className="font-baloo text-[40px] font-semibold text-[#CB6801]">
             Career With Us
-          </h2>
+          </h1>
 
           <p className="mt-3 font-urbanist leading-7 text-[#3d4f6b]">
             At Suraj Plastic, we believe that excellence begins with exceptional
@@ -68,9 +68,9 @@ const CareerForm = () => {
             across the world.
           </p>
 
-          <h3 className="mt-10 font-baloo text-[30px] md:text-[40px] font-semibold text-[#CB6801]">
+          <h2 className="mt-10 font-baloo text-[30px] md:text-[40px] font-semibold text-[#CB6801]">
             Submit Your Details
-          </h3>
+          </h2>
 
         </div>
 

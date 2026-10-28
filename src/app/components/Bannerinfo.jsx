@@ -7,7 +7,7 @@ const Bannerinfo = () => {
       {/* Background Image */}
 
       <Image
-        src="/home/bg1.jpg"
+        src="/home/bg1.webp"
         alt="About Suraj Plastic"
         fill
         priority
@@ -25,10 +25,10 @@ const Bannerinfo = () => {
 
           <div className="max-w-[760px]">
 
-            <h2 className="font-urbanist text-[35px] md:text-[45px] leading-[1.2] font-semibold text-white">
+            <span className="block font-urbanist text-[35px] md:text-[45px] leading-[1.2] font-semibold text-white">
               Since 1982, Suraj Plastic has been at the forefront of Blow &
               Injection Moulding innovation.
-            </h2>
+            </span>
 
           </div>
 

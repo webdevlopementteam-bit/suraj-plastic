@@ -10,6 +10,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
+import EnquiryPopup from "./components/EnquiryPopup";
 
 const baloo2 = Baloo_2({
   subsets: ["latin"],
@@ -41,17 +42,20 @@ const montserrat = Montserrat({
 export const metadata = {
   metadataBase: new URL("https://www.surajplasticindustries.in/"),
 
-  title: "Suraj Plastic Industries | Best Blow Moulding Machines Manufacturer",
+  title: "Stretch Blow Moulding Machine Manufacturer | Suraj Plastic",
 
   description:
-    "Suraj Plastic Industries is a trusted Blow Moulding Machines Manufacturer, offering high-performance, energy-efficient plastic blow moulding machines with reliable quality and excellent after-sales support.",
+    "Stretch Blow Moulding Machine Manufacturer in Delhi, India since 1997. Semi automatic, hand feed & fully automatic PET machines. 4000+ sold. Get a quote.",
 
-  keywords: [
-    "Suraj Plastic Industries",
-  ],
+  openGraph: {
+    type: "website",
+    siteName: "Suraj Plastic Industries",
+    locale: "en_IN",
+    images: ["/logo.png"],
+  },
 
-  alternates: {
-    canonical: "/",
+  twitter: {
+    card: "summary_large_image",
   },
 
   icons: {
@@ -65,20 +69,35 @@ export const metadata = {
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "https://www.surajplasticindustries.in/#organization",
   name: "Suraj Plastic Industries",
   url: "https://www.surajplasticindustries.in",
   logo: "https://www.surajplasticindustries.in/logo.png",
+  image: "https://www.surajplasticindustries.in/logo.png",
   foundingDate: "1982",
+  telephone: "+91-9871494249",
+  email: "info@surajplasticindustries.in",
   description:
-    "Suraj Plastic Industries is a trusted Blow Moulding Machines Manufacturer, offering high-performance, energy-efficient PET stretch blow moulding machines since 1997.",
+    "Suraj Plastic Industries is a Stretch Blow Moulding Machine Manufacturer in New Delhi, India, manufacturing semi automatic, automatic hand feed and fully automatic PET preform stretch blow moulding machines since 1997.",
+  knowsAbout: [
+    "Stretch Blow Moulding Machine",
+    "Semi Automatic Stretch Blow Moulding Machine",
+    "Fully Automatic Stretch Blow Moulding Machine",
+    "Automatic Hand Feed Blow Moulding Machine",
+    "PET Preform Stretch Blow Moulding Machine",
+    "PET Bottle Blow Machine",
+    "Mineral Water Bottle Making Machine",
+  ],
   address: {
     "@type": "PostalAddress",
     streetAddress: "D-18, Naresh Park Extension, Nangloi",
     addressLocality: "New Delhi",
+    addressRegion: "Delhi",
     postalCode: "110041",
     addressCountry: "IN",
   },
+  areaServed: ["IN", "Worldwide"],
   contactPoint: [
     {
       "@type": "ContactPoint",
@@ -88,19 +107,38 @@ const organizationSchema = {
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"],
     },
+    {
+      "@type": "ContactPoint",
+      telephone: "+91-9999886068",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: ["English", "Hindi"],
+    },
   ],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Suraj Plastic Industries",
+  url: "https://www.surajplasticindustries.in",
+  publisher: { "@id": "https://www.surajplasticindustries.in/#organization" },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="en-IN"
       className={`${baloo2.variable} ${urbanist.variable} ${lato.variable} ${montserrat.variable}`}
     >
       <body className="font-lato overflow-x-hidden">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
 
         {/* Google tag (gtag.js) */}
@@ -124,6 +162,8 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
 
         <Footer />
+
+        <EnquiryPopup />
       </body>
     </html>
   );

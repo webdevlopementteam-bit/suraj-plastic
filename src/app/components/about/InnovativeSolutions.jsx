@@ -32,7 +32,7 @@ const InnovativeSolutions = () => {
 
         <div className="flex justify-center lg:justify-end md:w-[60%]">
   <Image
-    src="/about/innovative.jpg"
+    src="/about/innovative.webp"
     alt="Suraj Plastic Industries Manufacturing"
     width={1200}
     height={520}

@@ -40,27 +40,27 @@ const reviews = [
 ];
 
 const clients = [
-  { image: "/home/client1.jpeg", alt: "Client 1" },
-  { image: "/home/client2.png", alt: "Client 2" },
-  { image: "/home/client3.png", alt: "Client 3" },
-  { image: "/home/client4.png", alt: "Client 4" },
-  { image: "/home/client5.png", alt: "Client 5" },
-  { image: "/home/client6.png", alt: "Client 6" },
-  { image: "/home/client7.png", alt: "Client 7" },
-  { image: "/home/client8.png", alt: "Client 8" },
-  { image: "/home/client9.png", alt: "Client 9" },
-  { image: "/home/client10.jpg", alt: "Client 10" },
-  { image: "/home/client11.png", alt: "Client 11" },
-  { image: "/home/client12.png", alt: "Client 12" },
-  { image: "/home/client13.png", alt: "Client 13" },
-  { image: "/home/client14.gif", alt: "Client 14" },
-  { image: "/home/client15.png", alt: "Client 15" },
-  { image: "/home/client16.png", alt: "Client 16" },
-  { image: "/home/client17.jpg", alt: "Client 17" },
-  { image: "/home/client18.png", alt: "Client 18" },
-  { image: "/home/client19.png", alt: "Client 19" },
-  { image: "/home/client20.jpeg", alt: "Client 20" },
-  { image: "/home/client21.jpeg", alt: "Client 21" },
+  { image: "/home/client1.webp", alt: "Client 1" },
+  { image: "/home/client2.webp", alt: "Client 2" },
+  { image: "/home/client3.webp", alt: "Client 3" },
+  { image: "/home/client4.webp", alt: "Client 4" },
+  { image: "/home/client5.webp", alt: "Client 5" },
+  { image: "/home/client6.webp", alt: "Client 6" },
+  { image: "/home/client7.webp", alt: "Client 7" },
+  { image: "/home/client8.webp", alt: "Client 8" },
+  { image: "/home/client9.webp", alt: "Client 9" },
+  { image: "/home/client10.webp", alt: "Client 10" },
+  { image: "/home/client11.webp", alt: "Client 11" },
+  { image: "/home/client12.webp", alt: "Client 12" },
+  { image: "/home/client13.webp", alt: "Client 13" },
+  { image: "/home/client14.webp", alt: "Client 14" },
+  { image: "/home/client15.webp", alt: "Client 15" },
+  { image: "/home/client16.webp", alt: "Client 16" },
+  { image: "/home/client17.webp", alt: "Client 17" },
+  { image: "/home/client18.webp", alt: "Client 18" },
+  { image: "/home/client19.webp", alt: "Client 19" },
+  { image: "/home/client20.webp", alt: "Client 20" },
+  { image: "/home/client21.webp", alt: "Client 21" },
 ];
 
 
@@ -70,7 +70,7 @@ export default function Reviews() {
       <section className="relative overflow-hidden py-12 bg-black">
         {/* Background Image */}
         <Image
-          src="/home/map-bg.png"
+          src="/home/map-bg.webp"
           alt="Map Background"
           fill
           priority
@@ -114,9 +114,9 @@ export default function Reviews() {
                 <div className="rounded-[25px] border border-white/60 bg-transparent p-7 h-[350px] md:h-[380px] lg:h-[330px]">
                   <p className="text-xl text-[#FFC107]">"</p>
 
-                  <h3 className="mt-2 text-white font-baloo text-[18px]">
+                  <p className="mt-2 text-white font-baloo text-[18px]">
                     {item.name}
-                  </h3>
+                  </p>
 
                   <div className="flex gap-1 mt-3 text-[#FFC107]">
                     {[...Array(4)].map((_, i) => (
@@ -124,9 +124,9 @@ export default function Reviews() {
                     ))}
                   </div>
 
-                  <h4 className="mt-4 text-white font-urbanist font-semibold text-[15px]">
+                  <p className="mt-4 text-white font-urbanist font-semibold text-[15px]">
                     "{item.title}"
-                  </h4>
+                  </p>
 
                   <p className=" text-white/90 leading-7 font-urbanist text-[15px]">
                     {item.review}
@@ -139,9 +139,9 @@ export default function Reviews() {
       </section>
       <section className="py-10 bg-white">
         <div className=" mx-auto px-3 md:px-16">
-          <h2 className="text-center font-baloo text-[40px] font-bold ">
+          <span className="block text-center font-baloo text-[40px] font-bold ">
             Our Clients
-          </h2>
+          </span>
 
           <Swiper
             modules={[Autoplay]}

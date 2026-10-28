@@ -15,6 +15,7 @@ const quickLinks = [
   { title: "HOME", href: "/" },
   { title: "ABOUT US", href: "/about" },
   { title: "PRODUCTS", href: "/products" },
+  { title: "BLOG", href: "/blog" },
   { title: "CAREER", href: "/career" },
   { title: "CONTACT US", href: "/contact-us" },
 ];
@@ -25,16 +26,28 @@ const products = [
     href: "/products/semi-automatic-pet-stretch-blow-moulding-machine",
   },
   {
-    title: "High Speed Semi Automatic Stretch Blow Moulding Machine",
-    href: "/products/high-speed-pet-perform-stretch-blow-moulding-machine",
+    title: "Fully Automatic Stretch Blow Moulding Machine",
+    href: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer",
   },
   {
     title: "Automatic Hand Feed Blow Moulding Machine",
     href: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine",
   },
   {
-    title: "Fully Automatic Stretch Blow Moulding Machine",
-    href: "/products/fully-automatic-pet-stretch-blow-moulding-machine",
+    title: "Preform Stretch Blow Moulding Machine Manufacturer",
+    href: "/products/preform-stretch-blow-moulding-machine-manufacturer",
+  },
+  {
+    title: "Automatic PET Bottle Moulding Machine Manufacturer",
+    href: "/products/automatic-pet-bottle-moulding-machine-manufacturer",
+  },
+  {
+    title: "PET Bottle Blow Machine Manufacturer",
+    href: "/products/pet-bottle-blow-machine-manufacturer",
+  },
+  {
+    title: "Mineral Water Bottle Making Machine Manufacturer",
+    href: "/products/mineral-water-bottle-making-machine-manufacturer",
   },
 ];
 
@@ -47,7 +60,7 @@ export default function Footer() {
 
           <div>
             <Image
-              src="/footer-logo.png"
+              src="/footer-logo.webp"
               alt="Suraj Plastic"
               width={170}
               height={80}
@@ -58,17 +71,18 @@ export default function Footer() {
               innovation and expertise.
               We were established in the year 1982 as a manufacturer of Blow /
               Injection Moulding Articles. We have made our mark as a modern,
-              versatile and creative manufacturer of PET Preform Stretch
-              Blow-moulding machine since 1997.
+              versatile and creative Stretch Blow Moulding Machine
+              Manufacturer, building PET Preform Stretch Blow-moulding
+              machines since 1997.
             </p>
           </div>
 
           {/* Quick Links */}
 
           <div>
-            <h3 className="font-urbanist text-[25px] font-semibold uppercase">
+            <span className="block font-urbanist text-[25px] font-semibold uppercase">
               Quick Links
-            </h3>
+            </span>
 
             <ul className="mt-6 space-y-3">
               {quickLinks.map((item) => (
@@ -88,9 +102,9 @@ export default function Footer() {
           {/* Products */}
 
           <div>
-            <h3 className="font-urbanist text-[25px] font-semibold uppercase">
+            <span className="block font-urbanist text-[25px] font-semibold uppercase">
               Products
-            </h3>
+            </span>
 
             <ul className="mt-6 space-y-3">
               {products.map((item) => (
@@ -114,9 +128,9 @@ export default function Footer() {
           {/* Contact */}
 
           <div>
-            <h3 className="font-urbanist text-[25px] font-semibold uppercase">
+            <span className="block font-urbanist text-[25px] font-semibold uppercase">
               Contact Us
-            </h3>
+            </span>
 
             <div className="mt-6 space-y-3">
               <div className="flex items-start gap-4">
@@ -176,7 +190,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10 bg-[#1E3F72] py-5">
         <p className="text-center font-urbanist text-white">
-          Copyright © 2025 SURAJ PLASTIC INDUSTRIES All Right Reserved | Powered by{" "}
+          Copyright © {new Date().getFullYear()} SURAJ PLASTIC INDUSTRIES All Right Reserved | Powered by{" "}
           <Link href="https://www.cybertricksmedia.com/" target="_blank"><span className="font-semibold text-[#FF9800]">Bharat Bizmart</span></Link>
         </p>
       </div>

@@ -11,13 +11,7 @@ import {
   FaLocationDot,
   FaPhoneVolume,
 } from "react-icons/fa6";
-
-
-const ACCESS_KEY_1 = "e518a8fe-9f04-48c0-9134-165b943a63e6";
-const ACCESS_KEY_2 = "d0db7e79-9031-4fa6-95a4-8665a1d3c0ec";
-
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const PHONE_REGEX = /^\d{10}$/; // exactly 10 digits, koi bhi start digit
+import { EMAIL_REGEX, PHONE_REGEX, submitEnquiry } from "@/app/lib/web3forms";
 
 export default function ContactForm() {
   const router = useRouter();
@@ -105,29 +99,7 @@ export default function ContactForm() {
     };
 
     try {
-      const submitToWeb3Forms = (accessKey) =>
-        fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify({
-            access_key: accessKey,
-            ...formData,
-          }),
-        }).then((res) => res.json());
-
-      const results = await Promise.allSettled([
-        submitToWeb3Forms(ACCESS_KEY_1),
-        submitToWeb3Forms(ACCESS_KEY_2),
-      ]);
-
-      const atLeastOneSuccess = results.some(
-        (r) => r.status === "fulfilled" && r.value.success,
-      );
-
-      if (atLeastOneSuccess) {
+      if (await submitEnquiry(formData)) {
         form.reset();
         router.push("/thank-you");
       } else {
@@ -207,7 +179,7 @@ export default function ContactForm() {
                 D-18, Naresh Park Extension, Nangloi, New Delhi - 110041
               </p>
               <div className="flex justify-center mt-5">
-                <Image src="/address-3.png" width={100} height={100} />
+                <Image src="/address-3.webp" alt="Address" width={100} height={100} />
               </div>
             </div>
 
@@ -222,7 +194,7 @@ export default function ContactForm() {
                 +91 9999886068
               </p>
               <div className="flex justify-center mt-5">
-                <Image src="/touch-1.png" width={100} height={100} />
+                <Image src="/touch-1.webp" alt="Phone" width={100} height={100} />
               </div>
             </div>
 
@@ -235,7 +207,7 @@ export default function ContactForm() {
                 info@surajplasticindustries.in
               </p>
               <div className="flex justify-center mt-7">
-                <Image src="/email.png" width={100} height={100} />
+                <Image src="/email.webp" alt="Email" width={100} height={100} />
               </div>
             </div>
           </div>

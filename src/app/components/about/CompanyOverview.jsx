@@ -58,7 +58,7 @@ export default function CompanyOverview() {
           <div className="flex justify-center lg:justify-end">
 
             <Image
-              src="/about/about.jpg"
+              src="/about/about.webp"
               alt="Mineral Water Bottle Manufacturing"
               width={450}
               height={450}

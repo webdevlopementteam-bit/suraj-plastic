@@ -1,14 +1,33 @@
 import Hero from "../../components/product/Hero";
 import SeoRenderer from "../../components/product/SeoRenderer";
+import JsonLd from "../../components/JsonLd";
+import { faqSchemaFromBlocks, productBreadcrumbSchema } from "@/app/lib/seo";
+
+const PAGE_NAME = "PET Bottle Blow Machine Manufacturer";
+const PAGE_PATH = "/products/pet-bottle-blow-machine-manufacturer";
 
 export const metadata = {
-  title: "PET Bottle Blow Machine Manufacturer | Suraj Plastic",
+  title: "PET Bottle Blow Machine Manufacturer in India | Suraj Plastic",
 
   description:
-    "Trusted PET Bottle Blow Machine Manufacturer offering durable, energy-efficient machines for PET bottle production. Get expert consultation & quote today!",
+    "PET Bottle Blow Machine Manufacturer in Delhi since 1997. Semi automatic, hand feed & fully automatic machines for 50 ml to 25 L bottles. Get a quote.",
+
+  keywords:
+    "PET Bottle Blow Machine Manufacturer, PET Bottle Blow Machine, PET Bottle Blowing Machine Manufacturer, PET Bottle Blow Machine Manufacturer in Delhi, PET Bottle Blow Machine Price",
 
   alternates: {
-    canonical: "/products/pet-bottle-blow-machine-manufacturer",
+    canonical: PAGE_PATH,
+  },
+
+  openGraph: {
+    type: "website",
+    url: PAGE_PATH,
+    siteName: "Suraj Plastic Industries",
+    locale: "en_IN",
+    title: "PET Bottle Blow Machine Manufacturer in India | Suraj Plastic",
+    description:
+      "Semi automatic, automatic hand feed and fully automatic PET bottle blow machines from 50 ml to 25 L.",
+    images: ["/product/product2.webp"],
   },
 };
 
@@ -17,7 +36,7 @@ const content = [
     type: "paragraph",
     content: [
       { text: "A " },
-      { text: "PET Bottle Blow Machine Manufacturer", bold: true, link: "/contact-us" },
+      { text: "PET Bottle Blow Machine Manufacturer", bold: true },
       { text: " is a company that designs, engineers, and produces machinery used to convert PET (Polyethylene Terephthalate) preforms into finished bottles through the blow moulding process. These machines are the backbone of the packaging industry, enabling businesses to produce bottles for water, beverages, pharmaceuticals, edible oils, cosmetics, and household products at scale." },
     ],
   },
@@ -27,7 +46,7 @@ const content = [
     content: [
       { text: "Choosing the right PET Bottle Blow Machine Manufacturer directly impacts production efficiency, bottle quality, energy costs, and long-term machine reliability. " },
       { text: "Suraj Plastic Industries", bold: true, link: "/" },
-      { text: " is a manufacturer specializing in PET bottle blow machines, built for consistent performance, lower downtime, and long-term operational value for packaging businesses across India." },
+      { text: " is a PET Bottle Blow Machine Manufacturer in New Delhi, making PET stretch blow moulding machines since 1997. With 4000+ machines sold and exports to 12+ countries, our machines are built for consistent performance, lower downtime, and long-term operational value for packaging businesses across India." },
     ],
   },
 
@@ -62,12 +81,90 @@ const content = [
   },
 
   {
-    type: "list",
-    items: [
-      "Semi-Automatic PET Bottle Blow Machines – Ideal for small and medium-scale manufacturers, requiring manual preform loading and bottle unloading.",
-      "Fully Automatic PET Bottle Blow Machines – Designed for high-volume production with automated preform feeding, heating, blowing, and ejection.",
-      "Single-Cavity and Multi-Cavity Machines – Available in different cavity configurations to match production capacity needs, from small startups to large-scale bottling plants.",
-      "Custom Configuration Machines – Built to match specific bottle shapes, neck sizes, and capacity requirements of individual businesses.",
+    type: "h3",
+    text: "Semi Automatic PET Bottle Blow Machine",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "Our " },
+      { text: "semi automatic stretch blow moulding machine", bold: true, link: "/products/semi-automatic-pet-stretch-blow-moulding-machine" },
+      { text: " (HP Series) is ideal for small and medium-scale manufacturers. It covers bottles and jars from 50 ml to 25 litres with outputs up to 700 bottles per hour, using manual preform loading and bottle unloading." },
+    ],
+  },
+
+  {
+    type: "h3",
+    text: "High Speed PET Bottle Blow Machine",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "The " },
+      { text: "high speed PET preform stretch blow moulding machine", bold: true, link: "/products/high-speed-pet-preform-stretch-blow-moulding-machine" },
+      { text: " (HS Series) increases output to 1,400–3,000 bottles per hour on 1 litre bottles while keeping the simplicity of semi automatic operation." },
+    ],
+  },
+
+  {
+    type: "h3",
+    text: "Automatic Hand Feed PET Bottle Blow Machine",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "The " },
+      { text: "automatic hand feed blow moulding machine", bold: true, link: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine" },
+      { text: " (SAB-HF Series) automates the stretch, blow and ejection cycle, giving up to 5,400 bottles per hour with 1, 2, 4 and 6 cavity moulds for 50 ml to 7 litre bottles." },
+    ],
+  },
+
+  {
+    type: "h3",
+    text: "Fully Automatic PET Bottle Blow Machine",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "Our " },
+      { text: "fully automatic stretch blow moulding machine", bold: true, link: "/products/fully-automatic-pet-stretch-blow-moulding-machine-manufacturer" },
+      { text: " (SPI AY Series) feeds preforms automatically and is rated up to 6,000 bottles per hour on select models, for high-volume water, CSD and juice lines. Compare all automatic options on our " },
+      { text: "automatic PET bottle moulding machine manufacturer", bold: true, link: "/products/automatic-pet-bottle-moulding-machine-manufacturer" },
+      { text: " page." },
+    ],
+  },
+
+  {
+    type: "h3",
+    text: "PET Jar Blow Machine",
+  },
+
+  {
+    type: "paragraph",
+    content: [
+      { text: "For wide-mouth containers, our " },
+      { text: "PET jar making machine", bold: true, link: "/products/pet-jar-making-machine" },
+      { text: " produces jars from 50 ml to 7,000 ml for food, edible oil and cosmetic packaging." },
+    ],
+  },
+
+  {
+    type: "h2",
+    text: "PET Bottle Blow Machine Range at a Glance",
+  },
+
+  {
+    type: "table",
+    headers: ["Machine Series", "Operation", "Bottle Size", "Output"],
+    rows: [
+      ["HP Series", "Semi Automatic", "50 ML – 25 LTR", "Up to 700 BPH"],
+      ["HS Series", "High Speed Semi Automatic", "50 ML – 7000 ML", "Up to 3,000 BPH"],
+      ["SAB-HF Series", "Automatic Hand Feed", "50 ML – 7000 ML", "Up to 5,400 BPH"],
+      ["SPI AY Series", "Fully Automatic", "600 ML – 2 LTR", "Up to 6,000 BPH"],
     ],
   },
 
@@ -167,7 +264,13 @@ const content = [
 
   {
     type: "paragraph",
-    text: "Planning to set up or expand your PET bottle production line? Contact Suraj Plastic Industries today for expert guidance and a customized quote.",
+    content: [
+      { text: "Planning to set up or expand your PET bottle production line? As an experienced " },
+      { text: "stretch blow moulding machine manufacturer", bold: true, link: "/" },
+      { text: ", Suraj Plastic Industries helps you choose the right machine. Packaged water plants can start with our " },
+      { text: "mineral water bottle making machine", bold: true, link: "/products/mineral-water-bottle-making-machine-manufacturer" },
+      { text: " guide." },
+    ],
   },
 
   {
@@ -194,7 +297,16 @@ const content = [
   },
 
   {
-    type: "h4",
+    type: "paragraph",
+    content: [
+      { text: "Already running a machine? Keep it in top condition with our " },
+      { text: "PET bottle blow machine maintenance checklist", bold: true, link: "/blog/pet-bottle-blow-machine-maintenance-checklist" },
+      { text: "." },
+    ],
+  },
+
+  {
+    type: "h2",
     text: "Frequently Asked Questions (FAQs)",
   },
 
@@ -217,9 +329,19 @@ const content = [
           "Suraj Plastic Industries offers specialized engineering expertise, quality-tested machines, energy-efficient designs, and reliable after-sales support, making us a dependable choice for packaging businesses of all sizes.",
       },
       {
+        question: "Who is the best PET bottle blow machine manufacturer in India?",
+        answer:
+          "Suraj Plastic Industries in Nangloi, New Delhi has manufactured PET stretch blow moulding machines since 1997 and has sold 4000+ machines in India and 12+ countries. Its range covers semi automatic, high speed, automatic hand feed and fully automatic PET bottle blow machines.",
+      },
+      {
         question: "What bottle capacities can a PET bottle blow machine produce?",
         answer:
-          "Depending on the mould configuration, PET bottle blow machines can produce bottles ranging from small 100ml containers to large 5-litre or bigger jars, based on the manufacturer's mould customization.",
+          "Suraj Plastic Industries' PET bottle blow machines produce bottles and jars from 50 ml up to 25 litres. Semi automatic HP Series machines cover 50 ml to 25 litres, automatic hand feed machines cover 50 ml to 7 litres and fully automatic SPI AY machines cover 600 ml to 2 litre bottles.",
+      },
+      {
+        question: "How many bottles per hour can a PET bottle blow machine make?",
+        answer:
+          "Output depends on the machine type and cavities: up to 700 BPH for semi automatic, up to 3,000 BPH for high speed semi automatic, up to 5,400 BPH for automatic hand feed and up to 6,000 BPH for fully automatic models.",
       },
       {
         question: "How much does a PET Bottle Blow Machine cost?",
@@ -258,9 +380,16 @@ const content = [
 export default function PetBottleBlowMachineManufacturerPage() {
   return (
     <>
+      <JsonLd
+        schemas={[
+          faqSchemaFromBlocks(content),
+          productBreadcrumbSchema(PAGE_NAME, PAGE_PATH),
+        ]}
+      />
+
       <Hero
-        title="PET Bottle Blow Machine Manufacturer"
-        image="/bg.jpg"
+        title={PAGE_NAME}
+        image="/bg.webp"
       />
 
       <SeoRenderer content={content} />

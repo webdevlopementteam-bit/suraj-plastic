@@ -5,7 +5,7 @@ import SeoRenderer from "../../components/product/SeoRenderer";
 
 export const metadata = {
   title:
-    "Best Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Haryana",
+    "Automatic Hand Feed PET Blow Moulding Machine in Haryana",
 
   description:
     "Suraj Plastic Industries is a trusted Automatic Hand Feed PET Stretch Blow Moulding Machine Manufacturer in Haryana, serving Faridabad and Gurgaon.",
@@ -47,14 +47,14 @@ const specRows = [
 const content = [
   {
     type: "h2",
-    text: "Best Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Haryana",
+    text: "Automatic Hand Feed PET Blow Moulding Machine in Haryana",
   },
 
   {
     type: "paragraph",
     content: [
       { text: "When businesses need a reliable " },
-      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Haryana", bold: true, link: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine" },
+      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Haryana", bold: true },
       { text: ", choosing the right machinery manufacturer is important for maintaining bottle quality, production consistency, and operational efficiency. " },
       { text: "Suraj Plastic Industries", bold: true, link: "/" },
       { text: " provides PET stretch blow moulding machinery designed for manufacturers involved in PET bottle and container production." },
@@ -209,7 +209,7 @@ const content = [
     type: "paragraph",
     content: [
       { text: "For such businesses, an " },
-      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Faridabad", bold: true, link: "/products/high-speed-pet-perform-stretch-blow-moulding-machine" },
+      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Faridabad", bold: true, link: "/products/automatic-hand-feed-pet-perform-stretch-blow-moulding-machine" },
       { text: " can provide an appropriate machinery solution for establishing or expanding PET bottle production." },
     ],
   },
@@ -233,7 +233,7 @@ const content = [
     type: "paragraph",
     content: [
       { text: "An " },
-      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Gurgaon", bold: true, link: "/products/fully-automatic-pet-stretch-blow-moulding-machine" },
+      { text: "Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Gurgaon", bold: true },
       { text: " can help businesses evaluate their PET bottle production requirements and select a machine configuration according to their application." },
     ],
   },
@@ -530,7 +530,7 @@ export default function AutomaticHandFeedPetPreformStretchBlowMouldingMachineMan
 
       <Hero
         title="Automatic Hand Feed PET Preform Stretch Blow Moulding Machine Manufacturer in Haryana"
-        image="/bg.jpg"
+        image="/bg.webp"
       />
 
       <section className="bg-white pt-16 px-5 lg:px-20">
@@ -539,7 +539,7 @@ export default function AutomaticHandFeedPetPreformStretchBlowMouldingMachineMan
 
           <div className="group rounded-3xl border bg-white p-8 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
             <Image
-              src="/product/product44.png"
+              src="/product/product44.webp"
               alt="Automatic Hand Feed PET Preform Stretch Blow Moulding Machine"
               width={450}
               height={450}
@@ -550,9 +550,9 @@ export default function AutomaticHandFeedPetPreformStretchBlowMouldingMachineMan
           {/* TECHNICAL SPECIFICATION */}
 
           <div>
-            <h3 className="font-baloo text-3xl font-semibold text-[#13233B]">
+            <h2 className="font-baloo text-3xl font-semibold text-[#13233B]">
               Technical Specification
-            </h3>
+            </h2>
 
             <div className="mt-2 h-1 w-24 rounded-full bg-[#D97706]" />
 

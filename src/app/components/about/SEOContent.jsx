@@ -287,9 +287,9 @@ const SEOContent = () => {
 
             <p className="mx-auto mt-3 max-w-4xl font-urbanist text-[#5A6474]">
               As a leading{" "}
-              <a href="/" className="text-[#2D6BFF] font-semibold">
+              <Link href="/products/mineral-water-bottle-making-machine-manufacturer" className="text-[#2D6BFF] font-semibold">
                 mineral water bottle making machine manufacturer in Delhi
-              </a>
+              </Link>
               , we offer a complete range of PET stretch blow moulding machines
               to suit every scale of water bottle production:
             </p>
@@ -366,9 +366,9 @@ const SEOContent = () => {
 
             <p className="mx-auto mt-3 max-w-4xl text-center font-urbanist text-[#5A6474]">
               Our{" "}
-              <a href="/contact-us" className="font-semibold text-[#2D6BFF]">
+              <Link href="/products/mineral-water-bottle-making-machine-manufacturer" className="font-semibold text-[#2D6BFF]">
                 water bottle making machines
-              </a>{" "}
+              </Link>{" "}
               are used by:
             </p>
 
@@ -518,9 +518,9 @@ const SEOContent = () => {
             </p>
 
             <p className="mt-3 font-urbanist text-[18px] leading-8 text-white/80">
-              <a href="/contact-us" className="font-bold">
+              <Link href="/products/mineral-water-bottle-making-machine-manufacturer" className="font-bold">
                 Mineral Water Bottle Making Machine Manufacturer
-              </a>{" "}
+              </Link>{" "}
               | Water Bottle Making Machine Manufacturer | PET Stretch Blow
               Moulding Machines | New Delhi, India | Since 1982
             </p>

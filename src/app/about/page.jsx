@@ -8,10 +8,10 @@ import Certified from "../components/Certified";
 
 
 export const metadata = {
-  title: "About - Suraj Plastic Industries",
+  title: "About Us | Suraj Plastic Industries – Since 1982",
   description:
-    "We Deliver Reliable & Innovative Manufacturing Solutions. Founded in 1982, Suraj Plastic Industries began as a manufacturer of blow-moulded plastic products, earning the trust of leading brands through consistent quality and reliability.",
-  keywords: ["About us", "Blow Moulding Machine Manufacturer and supplier"],
+    "Founded in 1982, Suraj Plastic Industries has built PET stretch blow moulding machines since 1997. ISO 9001:2015 certified, 4000+ machines sold in 12+ countries.",
+  keywords: ["About Suraj Plastic Industries", "Stretch Blow Moulding Machine Manufacturer", "Blow Moulding Machine Manufacturer and supplier"],
   alternates: {
     canonical: "/about",
   },

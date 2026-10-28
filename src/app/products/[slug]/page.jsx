@@ -6,6 +6,8 @@ import Hero from "../../components/product/Hero";
 import ProductOverview from "../../components/product/ProductOverview";
 import Specification from "../../components/product/Specification";
 import SeoRenderer from "../../components/product/SeoRenderer";
+import JsonLd from "../../components/JsonLd";
+import { SITE_URL, faqSchemaFromBlocks, productBreadcrumbSchema } from "@/app/lib/seo";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -24,13 +26,17 @@ export async function generateMetadata({ params }) {
     keywords: product.keywords,
 
     openGraph: {
+      type: "website",
+      url: `${SITE_URL}/products/${product.slug}`,
+      siteName: "Suraj Plastic Industries",
+      locale: "en_IN",
       title: product.metaTitle,
       description: product.metaDescription,
-      images: [product.heroImage],
+      images: [product.image],
     },
 
     alternates: {
-      canonical: `https://www.surajplasticindustries.in/products/${product.slug}`,
+      canonical: `${SITE_URL}/products/${product.slug}`,
     },
   };
 }
@@ -50,36 +56,17 @@ export default async function Page({ params }) {
     notFound();
   }
 
-  // Auto-generate FAQ schema from seo/seoBefore content blocks
+  // Auto-generate FAQ schema from every faq block in seo/seoBefore content
   const allBlocks = [...(product.seoBefore || []), ...(product.seo || [])];
-  const faqBlock = allBlocks.find((block) => block.type === "faq");
 
-  const faqSchema = faqBlock
-    ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: faqBlock.items.map((item) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: item.answer,
-          },
-        })),
-      }
-    : null;
-
-  const finalSchema = product.schema || (faqSchema ? [faqSchema] : []);
+  const finalSchema = [
+    ...(product.schema || [faqSchemaFromBlocks(allBlocks)]),
+    productBreadcrumbSchema(product.name, `/products/${product.slug}`),
+  ];
 
   return (
     <>
-      {finalSchema.map((schemaItem, index) => (
-        <script
-          key={index}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaItem) }}
-        />
-      ))}
+      <JsonLd schemas={finalSchema} />
 
       <Hero
         title={product.name}

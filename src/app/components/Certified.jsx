@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const certificates = [
   {
-    image: "/home/fieo.png",
+    image: "/home/fieo.webp",
     alt: "FIEO",
   },
   {
-    image: "/home/msme.png",
+    image: "/home/msme.webp",
     alt: "MSME",
   },
   {
-    image: "/home/uk.png",
+    image: "/home/uk.webp",
     alt: "UK Cert",
   },
   {
-    image: "/home/iso.png",
+    image: "/home/iso.webp",
     alt: "ISO 9001:2015",
   },
 ];
@@ -25,9 +25,9 @@ export default function Certified() {
      <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
-        <h2 className="font-baloo text-[35px] font-bold text-center">
+        <span className="block font-baloo text-[35px] font-bold text-center">
           Certified By
-        </h2>
+        </span>
 
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-12 items-center">
 

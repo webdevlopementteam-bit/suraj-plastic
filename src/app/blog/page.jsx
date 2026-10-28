@@ -3,10 +3,18 @@ import Image from "next/image";
 import BlogCard from "../components/blog/BlogCard";
 
 export const metadata = {
-  title: "Blog | Suraj Plastic Industries",
+  title: "Stretch Blow Moulding Blog & Buying Guides | Suraj Plastic",
   description:
-    "Latest articles about PET Bottle Machines, Blow Moulding Machines, PET Preforms and Plastic Packaging Industry.",
+    "Buying guides, price factors, comparisons and maintenance tips for semi automatic, hand feed and fully automatic PET stretch blow moulding machines.",
+  alternates: {
+    canonical: "/blog",
+  },
 };
+
+// Newest first
+const sortedBlogs = [...blogs].sort((a, b) =>
+  b.datePublished.localeCompare(a.datePublished),
+);
 
 export default function BlogsPage() {
   return (
@@ -16,7 +24,7 @@ export default function BlogsPage() {
       <section className="relative h-[420px] overflow-hidden">
 
         <Image
-          src="/blogg.jpg"
+          src="/blogg.webp"
           fill
           priority
           alt="Blog"
@@ -34,7 +42,7 @@ export default function BlogsPage() {
             </span>
 
             <h1 className="mt-6 font-baloo text-5xl font-bold">
-              Our Blog
+              Stretch Blow Moulding Blog
             </h1>
 
             <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-gray-200">
@@ -71,7 +79,7 @@ export default function BlogsPage() {
 
           <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
 
-            {blogs.map((blog) => (
+            {sortedBlogs.map((blog) => (
               <BlogCard key={blog.slug} blog={blog} />
             ))}
 

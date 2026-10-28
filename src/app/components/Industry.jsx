@@ -10,79 +10,79 @@ import "swiper/css";
 
 const products = [
   {
-    image: "/home/fridges.png",
+    image: "/home/fridges.webp",
     title: "Fridge Bottles",
     description:
       "Ideal for producing lightweight, clear, and reusable fridge bottles for everyday household use.",
   },
   {
-    image: "/home/packaged.avif",
+    image: "/home/packaged.webp",
     title: "Packaged Drinking Water",
     description:
       "Efficient, hygienic, and uniform bottle production tailored for heavy mineral water demand.",
   },
   {
-    image: "/home/water-jar.jpeg",
+    image: "/home/water-jar.webp",
     title: "20 Litre Water Jars ",
     description:
       "Ideal for producing strong, durable 20L PET jars for bulk water supply with uniform wall thickness.",
   },
   {
-    image: "/home/drinks.jpg",
+    image: "/home/drinks.webp",
     title: "Soft Drinks (CSD)",
     description:
       "Strengthened bottle molding to withstand high internal pressure in carbonated drinks.",
   },
   {
-    image: "/home/wide.jpeg",
+    image: "/home/wide.webp",
     title: "Wide-Mouth PET Jars",
     description:
       "Wide-mouth PET jars perfect for easy filling and dispensing of various food products.",
   },
   {
-    image: "/home/liquid.png",
+    image: "/home/liquid.webp",
     title: "Liquid Detergents",
     description:
       "Optimized for high-precision neck finish in chemical-grade PET container manufacturing.",
   },
   {
-    image: "/home/edible-oil.png",
+    image: "/home/edible-oil.webp",
     title: "Edible Oil Bottling",
     description:
       "Designed to handle diverse neck finishes and capacities for oil containers, from 200ml to 2L.",
   },
   {
-    image: "/home/baby-feed.jpeg",
+    image: "/home/baby-feed.webp",
     title: "Baby Feeding Bottles",
     description:
       "High-quality PP bottles offering safe, hygienic, heat-resistant, and easy baby feeding use.",
   },
   {
-    image: "/home/hot-juice.jpg",
+    image: "/home/hot-juice.webp",
     title: "Hot Fill Juices & Flavored Drinks",
     description:
       "Built with infrared heating and a durable frame, suitable for hot-fill production.",
   },
   {
-    image: "/home/heavy-duty.jpeg",
+    image: "/home/heavy-duty.webp",
     title: "Heavy-Duty PET Bottles",
     description:
       "Durable, chemical-resistant bottles designed for safe packaging of pesticides and agrochemicals.",
   },
   {
-    image: "/home/pharma.png",
+    image: "/home/pharma.webp",
     title: "Pharmaceutical Liquids & Syrup Bottles",
     description:
       "Precision blow molding designed to meet pharma-grade cleanliness standards.",
   },
   {
-    image: "/home/lubricants.jpeg",
+    image: "/home/lubricants.webp",
     title: "PET Bottles for Lubricants & Engine Oils",
     description:
       "Strong, leak-proof bottles for automotive oils and lubricants.",
   },
   {
-    image: "/home/cosmetics.png",
+    image: "/home/cosmetics.webp",
     title: "Cosmetic & Personal Care Liquids",
     description:
       "Supports tailored PET bottle designs for cosmetic and personal care packaging.",
@@ -97,8 +97,6 @@ export default function Industry() {
           Versatile PET Bottle Solutions <br />
           <span className="text-center text-[#CB6801]">For Every Industry</span>
         </h2>
-
-        <h3 className="text-center font-baloo text-[40px] font-semibold text-[#CB6801]"></h3>
 
         <p className="mx-auto mt-4 max-w-3xl text-center font-baloo font-semibold leading-6 text-[#5f6d82]">
           Designed to produce high-quality PET bottles for beverages, water,
@@ -143,9 +141,9 @@ export default function Industry() {
 />
                   </div>
 
-                  <h4 className="mt-8 text-center font-baloo text-[25px] font-semibold text-[#161633]">
+                  <span className="block mt-8 text-center font-baloo text-[25px] font-semibold text-[#161633]">
                     {item.title}
-                  </h4>
+                  </span>
 
                   <p className="mt-2 text-center font-lato text-[17px] leading-7 text-[#6d7685]">
                     {item.description}
